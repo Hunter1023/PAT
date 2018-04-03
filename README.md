@@ -1,3 +1,3 @@
-# PAT-Basic-Level-Practise
+## PAT真题共有顶级、甲级、乙级三套
 
-用Java写的PAT乙级真题代码，详细内容请转Issues栏。
+目前处于乙级真题的实现中……
