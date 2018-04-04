@@ -8,12 +8,12 @@ public class Main {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
-		String[] input = br.readLine().split(" ");
+		String[] str = br.readLine().split(" ");
 		br.close();
 
-		int[] arr = new int[input.length - 1];
+		int[] arr = new int[str.length - 1];
 		for (int i = 0; i < arr.length; i++) {
-			arr[i] = Integer.parseInt(input[i+1]);
+			arr[i] = Integer.parseInt(str[i+1]);
 		}
 		
 

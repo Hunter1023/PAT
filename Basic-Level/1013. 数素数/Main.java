@@ -1,38 +1,51 @@
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class Main {
-	
-	public static void main(String[] args) {
+
+	public static boolean isPrime(int num) {
 		
-		Scanner in = new Scanner(System.in);
-	    int M=in.nextInt();
-	    int N=in.nextInt();
-	    in.close();
-		
-	    //创建能存放N个素数的数组，并对素数计数
-		int[] arr = new int[N];
-		arr[0] = 2;
-		int numOfPrime = 1;
-		
-		exciting:
-		for(int i = 3; numOfPrime < N; i += 2) {
-			for(int j = 0; j < numOfPrime; j++) {//如果一个数不能被比自己小的素数整除，那么这个数就是素数
-				if(i % arr[j] == 0) {
-					continue exciting;
-				}
+		for (int i = 2; i <= Math.sqrt(num); i++) {
+			if(num % i == 0) {
+				return false;
 			}
-			arr[numOfPrime++] = i;
-		}
+		}		
+		return true;		
+	}
+	
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		String str[] = br.readLine().split(" ");
+
+		int M = Integer.parseInt(str[0]);
+		int N = Integer.parseInt(str[1]);
+		br.close();
+
+		int[] arr = new int[N-M+1];
 		
-		
-		int numOfLine = 0;
-		for(int i = M -1; i < N; i++) {
-			if(numOfLine !=9) {//如果一行还没有满9个数字，就输出数字+空格
-				System.out.print(arr[i]+" ");
-				numOfLine++;
-			}else {//如果一行已经满了9个数字，就输出数字并换行
-				System.out.println(arr[i]);
-				numOfLine = 0;
+		int num = 2;
+		int cnt = 0;
+
+		while (cnt < N) {
+	        if (isPrime(num)) {
+	            cnt++;
+	            if (cnt >= M) 
+	            	arr[cnt-M] = num;
+	        }
+	        num++;
+	    }
+
+		cnt = 0;
+		for (int i = 0; i < arr.length; i++) {
+			cnt++;
+			if (cnt % 10 != 1) {
+				System.out.print(" " + arr[i]);
+			} else {
+				System.out.print(arr[i]);
+			}
+			if (cnt % 10 == 0) {
+				System.out.println("");
 			}
 		}
 	}
