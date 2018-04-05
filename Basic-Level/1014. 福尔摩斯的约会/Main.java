@@ -1,16 +1,19 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.HashMap;
-import java.util.Scanner;
 
 public class Main {	
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
-		Scanner in = new Scanner(System.in);
-		String line1 = in.nextLine();
-		String line2 = in.nextLine();
-		String line3 = in.nextLine();
-		String line4 = in.nextLine();
-		in.close();
+		String line1 = br.readLine();
+		String line2 = br.readLine();
+		String line3 = br.readLine();
+		String line4 = br.readLine();
+		
+		br.close();
 		
 		HashMap<Character, String> week = new HashMap<Character, String>();
 		week.put('A', "MON");
@@ -24,24 +27,24 @@ public class Main {
 		String time = "";
 		boolean isJudgeDay = true;
 		boolean isJudgeHour = false;
+		
 		for (int i = 0; i < line1.length() && i < line2.length(); i++) {
 			if(line1.charAt(i) == line2.charAt(i)) {
+				
 				if(isJudgeDay && line1.charAt(i) >= 'A' && line1.charAt(i) <= 'G') {
 					time += week.get(line1.charAt(i))+" ";
 					isJudgeDay = false;
 					isJudgeHour = true;
-				}else if( ( line1.charAt(i) >= 'A' && line1.charAt(i) <= 'N' ) 
-						|| Character.isDigit(line1.charAt(i)) && isJudgeHour) {
+				}else if( (( line1.charAt(i) >= 'A' && line1.charAt(i) <= 'N' ) 
+						|| Character.isDigit(line1.charAt(i))) && isJudgeHour) {
 					if(Character.isDigit(line1.charAt(i))) {
-						time += 0 + line1.charAt(i);
+						time += "0" + line1.charAt(i);
 					}else {
 						time += line1.charAt(i) - 'A' + 10;
 					}
 					isJudgeHour = false;
+					break;
 				}	
-			}
-			if(!isJudgeDay && !isJudgeHour) {
-				break;
 			}
 		}
 		
