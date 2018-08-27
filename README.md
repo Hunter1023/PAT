@@ -7,51 +7,86 @@
 
 | 标号 | 标题 | C语言 |    C++  |  Java  | 解题关键 |
 | ---- | ---- | :----: | :----: | :----: | ---- |
-| 1036 | 跟奥巴马一起编程 | [答案](/BasicLevel/C语言/1036.%20跟奥巴马一起编程.md) | | | 四舍五入 |
-| 1037 | 在霍格沃茨找零钱 | [答案](/BasicLevel/C语言/1037.%20在霍格沃茨找零钱.md) | | | 判断正负&进制换算 |
-| 1038 | 统计同成绩学生 | [答案](/BasicLevel/C语言/1038.%20统计同成绩学生.md) | | | 找准解题角度 |
-| 1039 | 到底买不买 | [答案](/BasicLevel/C语言/1039.%20到底买不买.md) | | | 对珠子的判断方式 |
-| 1040 | 有几个PAT | [答案](/BasicLevel/C语言/1040.%20有几个PAT.md) | | | **重要** |
-| 1041 | 考试座位号 | [答案](/BasicLevel/C语言/1041.%20考试座位号.md) | | | \ |
-| 1042 | 字符统计 | [答案](/BasicLevel/C语言/1042.%20字符统计.md) | | | 确认筛选条件 |
-| 1043 | 输出PATest | [答案](/BasicLevel/C语言/1043.%20输出PATest.md) | | | \ |
-| 1044 | 火星数字 | [答案](/BasicLevel/C语言/1044.%20火星数字.md) | | | 火星文表达的特点 |
-| 1045 | 快速排序 | [答案](/BasicLevel/C语言/1045.%20快速排序.md) | | | **重要** |
-| 1046 | 划拳 | [答案](/BasicLevel/C语言/1046.%20划拳.md) | | | \ |
-| 1047 | 编程团体赛 | [答案](/BasicLevel/C语言/1047.%20编程团体赛.md) | | | \ |
-| 1048 | 数字加密 | [答案](/BasicLevel/C语言/1048.%20数字加密.md) | | | 加密的正整数更长时 |
-| 1049 | 数列的片段和 | [答案](/BasicLevel/C语言/1049.%20数列的片段和.md) | | | **整型大小溢出** |
-| 1050 | 螺旋矩阵 | [答案](/BasicLevel/C语言/1050.%20螺旋矩阵.md) | | | **重要** |
-| 1051 | 复数乘法 | [答案](/BasicLevel/C语言/1051.%20复数乘法.md) | | | 格式化输出的保留小数 |
-| 1052 | 卖个萌 | [答案](/BasicLevel/C语言/1052.%20卖个萌.md) | | | 读取和统计字符的方式 |
-| 1053 | 住房空置率 | [答案](/BasicLevel/C语言/1053.%20住房空置率.md) | | | 整数和浮点数 |
-| 1054 | 求平均值 | [答案](/BasicLevel/C语言/1054.%20求平均值.md) | | | **遇到这种题目怎么办？没错，放弃PAT！** |
-| 1055 | 集体照 | [答案](/BasicLevel/C语言/1055.%20集体照.md) | | | **没错，坚持放弃PAT！** |
-| 1056 | 组合数的和 | [答案](/BasicLevel/C语言/1056.%20组合数的和.md) | | | \ |
-| 1057 | 数零壹 | [答案](/BasicLevel/C语言/1057.%20数零壹.md) | | | \ |
-| 1058 | 选择题 | [答案](/BasicLevel/C语言/1058.%20选择题.md) | | | **输入的读取** |
-| 1059 | C语言竞赛 | [答案](/BasicLevel/C语言/1059.%20C语言竞赛.md) | | | \ |
-| 1060 | 爱丁顿数 | [答案](/BasicLevel/C语言/1060.%20爱丁顿数.md) | | | **排序的作用** |
-| 1061 | 判断题 | [答案](/BasicLevel/C语言/1061.%20判断题.md) | | | \ |
-| 1062 | 最简分数 | [答案](/BasicLevel/C语言/1062.%20最简分数.md) | | | 分数范围的确定 |
-| 1063 | 计算谱半径 | [答案](/BasicLevel/C语言/1063.%20计算谱半径.md) | | | \ |
-| 1064 | 朋友数 | [答案](/BasicLevel/C语言/1064.%20朋友数.md) | | | \ |
-| 1065 | 单身狗 | [答案](/BasicLevel/C语言/1065.%20单身狗.md) | | | **你开枪吧，反正我的心早就死了.jpg** |
-| 1066 | 图像过滤 | [答案](/BasicLevel/C语言/1066.%20图像过滤.md) | | | \ |
-| 1067 | 试密码 | [答案](/BasicLevel/C语言/1067.%20试密码.md) | | | **暴力求解虽好，可不要贪杯哟** |
-| 1068 | 万绿丛中一点红 | [答案](/BasicLevel/C语言/1068.%20万绿丛中一点红.md) | | | **糟了，是报名费打水漂的感觉** |
-| 1069 | 微博转发抽奖 | [答案](/BasicLevel/C语言/1069.%20微博转发抽奖.md) | | | \ |
-| 1070 | 结绳 | [答案](/BasicLevel/C语言/1070.%20结绳.md) | | | 向下取整 |
-| 1071 | 小赌怡情 | [答案](/BasicLevel/C语言/1071.%20小赌怡情.md) | | | 输出的句子间隔 |
-| 1072 | 开学寄语 | [答案](/BasicLevel/C语言/1072.%20开学寄语.md) | | | \ |
-| 1073 | 多选题常见计分法 | [答案](/BasicLevel/C语言/1073.%20多选题常见计分法.md) | | | **如何将漏选选项作为错误处理** |
-| 1074 | 宇宙无敌加法器 | [答案](/BasicLevel/C语言/1074.%20宇宙无敌加法器.md) | | | **不同位数数字的相加** |
-| 1075 | 链表元素分类 | [答案](/BasicLevel/C语言/1075.%20链表元素分类.md) | | | 人间不值得.jpg |
-| 1076 | Wifi密码 | [答案](/BasicLevel/C语言/1076.%20Wifi密码.md) | | | 选项输入顺序随机 |
-| 1077 | 互评成绩计算 | [答案](/BasicLevel/C语言/1077.%20互评成绩计算.md) | | | 去掉无效评分、最高分和最低分 |
-| 1078 | 字符串压缩与解压 | [答案](/BasicLevel/C语言/1078.%20字符串压缩与解压.md) | | | \ |
-| 1079 | 延迟的回文数 | [答案](/BasicLevel/C语言/1079.%20延迟的回文数.md) | | | **重要** |
-| 1080 | MOOC期终成绩 | [答案](/BasicLevel/C语言/1080.%20MOOC期终成绩.md) | | | **时间复杂度** |
+| [1001](/BasicLevel/真题/1001.md) | 害死人不偿命的(3n+1)猜想 | [答案](/BasicLevel/C语言/1001.c) | | [答案](/BasicLevel/Java/1001.java) | \ |
+| [1002](/BasicLevel/真题/1002.md) | 写出这个数 | [答案](/BasicLevel/C语言/1002.c) | | [答案](/BasicLevel/Java/1002.java) | \ |
+| [1003](/BasicLevel/真题/1003.md) | 我要通过！ | [答案](/BasicLevel/C语言/1003.c) | | [答案](/BasicLevel/Java/1003.java) | \ |
+| [1004](/BasicLevel/真题/1004.md) | 成绩排名 | [答案](/BasicLevel/C语言/1004.c) | | [答案](/BasicLevel/Java/1004.java) | \ |
+| [1005](/BasicLevel/真题/1005.md) | 继续(3n+1)猜想 | [答案](/BasicLevel/C语言/1005.c) | | [答案](/BasicLevel/Java/1005.java) | \ |
+| [1006](/BasicLevel/真题/1006.md) | 换个格式输出整数 | [答案](/BasicLevel/C语言/1006.c) | | [答案](/BasicLevel/Java/1006.java) | \ |
+| [1007](/BasicLevel/真题/1007.md) | 素数对猜想 | [答案](/BasicLevel/C语言/1007.c) | | [答案](/BasicLevel/Java/1007.java) | \ |
+| [1008](/BasicLevel/真题/1008.md) | 数组元素循环右移问题 | [答案](/BasicLevel/C语言/1008.c) | | [答案](/BasicLevel/Java/1008.java) | \ |
+| [1009](/BasicLevel/真题/1009.md) | 说反话 | [答案](/BasicLevel/C语言/1009.c) | | [答案](/BasicLevel/Java/1009.java) | \ |
+| [1010](/BasicLevel/真题/1010.md) | 一元多项式求导 | [答案](/BasicLevel/C语言/1010.c) | | [答案](/BasicLevel/Java/1010.java) | \ |
+| [1011](/BasicLevel/真题/1011.md) | A+B和C | [答案](/BasicLevel/C语言/1011.c) | | [答案](/BasicLevel/Java/1011.java) | \ |
+| [1012](/BasicLevel/真题/1012.md) | 数字分类 | [答案](/BasicLevel/C语言/1012.c) | | [答案](/BasicLevel/Java/1012.java) | \ |
+| [1013](/BasicLevel/真题/1013.md) | 数素数 | [答案](/BasicLevel/C语言/1013.c) | | [答案](/BasicLevel/Java/1013.java) | \ |
+| [1014](/BasicLevel/真题/1014.md) | 福尔摩斯的约会 | [答案](/BasicLevel/C语言/1014.c) | | [答案](/BasicLevel/Java/1014.java) | \ |
+| [1015](/BasicLevel/真题/1015.md) | 部分A+B | [答案](/BasicLevel/C语言/1015.c) | | | \ |
+| [1016](/BasicLevel/真题/1016.md) | 成绩排名 | [答案](/BasicLevel/C语言/1016.c) | | | \ |
+| [1017](/BasicLevel/真题/1017.md) | A除以B | [答案](/BasicLevel/C语言/1017.c) | | | \ |
+| [1018](/BasicLevel/真题/1018.md) | 锤子剪刀布 | [答案](/BasicLevel/C语言/1018.c) | | | \ |
+| [1019](/BasicLevel/真题/1019.md) | 数字黑洞 | [答案](/BasicLevel/C语言/1019.c) | | | \ |
+| [1020](/BasicLevel/真题/1020.md) | 月饼 | [答案](/BasicLevel/C语言/1020.c) | | | \ |
+| [1021](/BasicLevel/真题/1021.md) | 个位数统计 | [答案](/BasicLevel/C语言/1021.c) | | | \ |
+| [1022](/BasicLevel/真题/1022.md) | D进制的A+B | [答案](/BasicLevel/C语言/1022.c) | | | \ |
+| [1023](/BasicLevel/真题/1023.md) | 组个最小数 | [答案](/BasicLevel/C语言/1023.c) | | | \ |
+| [1024](/BasicLevel/真题/1024.md) | 科学计数法 | [答案](/BasicLevel/C语言/1024.c) | | | \ |
+| [1025](/BasicLevel/真题/1025.md) | 反转链表 | [答案](/BasicLevel/C语言/1025.c) | | | \ |
+| [1026](/BasicLevel/真题/1026.md) | 程序运行时间 | [答案](/BasicLevel/C语言/1026.c) | | | \ |
+| [1027](/BasicLevel/真题/1027.md) | 打印沙漏 | [答案](/BasicLevel/C语言/1027.c) | | | \ |
+| [1028](/BasicLevel/真题/1028.md) | 人口普查 | [答案](/BasicLevel/C语言/1028.c) | | | \ |
+| [1029](/BasicLevel/真题/1029.md) | 旧键盘 | [答案](/BasicLevel/C语言/1029.c) | | | \ |
+| [1030](/BasicLevel/真题/1030.md) | 完美数列 | [答案](/BasicLevel/C语言/1030.c) | | | \ |
+| [1031](/BasicLevel/真题/1031.md) | 查验身份证 | [答案](/BasicLevel/C语言/1031.c) | | | \ |
+| [1032](/BasicLevel/真题/1032.md) | 挖掘机技术哪家强 | [答案](/BasicLevel/C语言/1032.c) | | | \ |
+| [1033](/BasicLevel/真题/1033.md) | 旧键盘打字 | [答案](/BasicLevel/C语言/1033.c) | | | \ |
+| [1034](/BasicLevel/真题/1034.md) | 有理数四则运算 | [答案](/BasicLevel/C语言/1034.c) | | | \ |
+| [1035](/BasicLevel/真题/1035.md) | 插入与归并 | [答案](/BasicLevel/C语言/1035.c) | | | \ |
+| [1036](/BasicLevel/真题/1036.md) | 跟奥巴马一起编程 | [答案](/BasicLevel/C语言/1036.c) | | | 四舍五入 |
+| [1037](/BasicLevel/真题/1037.md) | 在霍格沃茨找零钱 | [答案](/BasicLevel/C语言/1037.c) | | | 判断正负&进制换算 |
+| [1038](/BasicLevel/真题/1038.md) | 统计同成绩学生 | [答案](/BasicLevel/C语言/1038.c) | | | 找准解题角度 |
+| [1039](/BasicLevel/真题/1039.md) | 到底买不买 | [答案](/BasicLevel/C语言/1039.c) | | | 对珠子的判断方式 |
+| [1040](/BasicLevel/真题/1040.md) | 有几个PAT | [答案](/BasicLevel/C语言/1040.c) | | | **重要** |
+| [1041](/BasicLevel/真题/1041.md) | 考试座位号 | [答案](/BasicLevel/C语言/1041.c) | | | \ |
+| [1042](/BasicLevel/真题/1042.md) | 字符统计 | [答案](/BasicLevel/C语言/1042.c) | | | 确认筛选条件 |
+| [1043](/BasicLevel/真题/1043.md) | 输出PATest | [答案](/BasicLevel/C语言/1043.c) | | | \ |
+| [1044](/BasicLevel/真题/1044.md) | 火星数字 | [答案](/BasicLevel/C语言/1044.c) | | | 火星文表达的特点 |
+| [1045](/BasicLevel/真题/1045.md) | 快速排序 | [答案](/BasicLevel/C语言/1045.c) | | | **重要** |
+| [1046](/BasicLevel/真题/1046.md) | 划拳 | [答案](/BasicLevel/C语言/1046.c) | | | \ |
+| [1047](/BasicLevel/真题/1047.md) | 编程团体赛 | [答案](/BasicLevel/C语言/1047.c) | | | \ |
+| [1048](/BasicLevel/真题/1048.md) | 数字加密 | [答案](/BasicLevel/C语言/1048.c) | | | 加密的正整数更长时 |
+| [1049](/BasicLevel/真题/1049.md) | 数列的片段和 | [答案](/BasicLevel/C语言/1049.c) | | | **整型大小溢出** |
+| [1050](/BasicLevel/真题/1050.md) | 螺旋矩阵 | [答案](/BasicLevel/C语言/1050.c) | | | **重要** |
+| [1051](/BasicLevel/真题/1051.md) | 复数乘法 | [答案](/BasicLevel/C语言/1051.c) | | | 格式化输出的保留小数 |
+| [1052](/BasicLevel/真题/1052.md) | 卖个萌 | [答案](/BasicLevel/C语言/1052.c) | | | 读取和统计字符的方式 |
+| [1053](/BasicLevel/真题/1053.md) | 住房空置率 | [答案](/BasicLevel/C语言/1053.c) | | | 整数和浮点数 |
+| [1054](/BasicLevel/真题/1054.md) | 求平均值 | [答案](/BasicLevel/C语言/1054.c) | | | **遇到这种题目怎么办？没错，放弃PAT！** |
+| [1055](/BasicLevel/真题/1055.md) | 集体照 | [答案](/BasicLevel/C语言/1055.c) | | | **没错，坚持放弃PAT！** |
+| [1056](/BasicLevel/真题/1056.md) | 组合数的和 | [答案](/BasicLevel/C语言/1056.c) | | | \ |
+| [1057](/BasicLevel/真题/1057.md) | 数零壹 | [答案](/BasicLevel/C语言/1057.c) | | | \ |
+| [1058](/BasicLevel/真题/1058.md) | 选择题 | [答案](/BasicLevel/C语言/1058.c) | | | **输入的读取** |
+| [1059](/BasicLevel/真题/1059.md) | C语言竞赛 | [答案](/BasicLevel/C语言/1059.c) | | | \ |
+| [1060](/BasicLevel/真题/1060.md) | 爱丁顿数 | [答案](/BasicLevel/C语言/1060.c) | | | **排序的作用** |
+| [1061](/BasicLevel/真题/1061.md) | 判断题 | [答案](/BasicLevel/C语言/1061.c) | | | \ |
+| [1062](/BasicLevel/真题/1062.md) | 最简分数 | [答案](/BasicLevel/C语言/1062.c) | | | 分数范围的确定 |
+| [1063](/BasicLevel/真题/1063.md) | 计算谱半径 | [答案](/BasicLevel/C语言/1063.c) | | | \ |
+| [1064](/BasicLevel/真题/1064.md) | 朋友数 | [答案](/BasicLevel/C语言/1064.c) | | | \ |
+| [1065](/BasicLevel/真题/1065.md) | 单身狗 | [答案](/BasicLevel/C语言/1065.c) | | | **你开枪吧，反正我的心早就死了.jpg** |
+| [1066](/BasicLevel/真题/1066.md) | 图像过滤 | [答案](/BasicLevel/C语言/1066.c) | | | \ |
+| [1067](/BasicLevel/真题/1067.md) | 试密码 | [答案](/BasicLevel/C语言/1067.c) | | | **暴力求解虽好，可不要贪杯哟** |
+| [1068](/BasicLevel/真题/1068.md) | 万绿丛中一点红 | [答案](/BasicLevel/C语言/1068.c) | | | **糟了，是报名费打水漂的感觉** |
+| [1069](/BasicLevel/真题/1069.md) | 微博转发抽奖 | [答案](/BasicLevel/C语言/1069.c) | | | \ |
+| [1070](/BasicLevel/真题/1070.md) | 结绳 | [答案](/BasicLevel/C语言/1070.c) | | | 向下取整 |
+| [1071](/BasicLevel/真题/10071.md) | 小赌怡情 | [答案](/BasicLevel/C语言/1071.c) | | | 输出的句子间隔 |
+| [1072](/BasicLevel/真题/1072.md) | 开学寄语 | [答案](/BasicLevel/C语言/1072.c) | | | \ |
+| [1073](/BasicLevel/真题/1073.md) | 多选题常见计分法 | [答案](/BasicLevel/C语言/1073.c) | | | **如何将漏选选项作为错误处理** |
+| [1074](/BasicLevel/真题/1074.md) | 宇宙无敌加法器 | [答案](/BasicLevel/C语言/1074.c) | | | **不同位数数字的相加** |
+| [1075](/BasicLevel/真题/1075.md) | 链表元素分类 | [答案](/BasicLevel/C语言/1075.c) | | | 人间不值得.jpg |
+| [1076](/BasicLevel/真题/1076.md) | Wifi密码 | [答案](/BasicLevel/C语言/1076.c) | | | 选项输入顺序随机 |
+| [1077](/BasicLevel/真题/1077.md) | 互评成绩计算 | [答案](/BasicLevel/C语言/1077.c) | | | 去掉无效评分、最高分和最低分 |
+| [1078](/BasicLevel/真题/1078.md) | 字符串压缩与解压 | [答案](/BasicLevel/C语言/1078.c) | | | \ |
+| [1079](/BasicLevel/真题/1079.md) | 延迟的回文数 | [答案](/BasicLevel/C语言/1079.c) | | | **重要** |
+| [1080](/BasicLevel/真题/1080.md) | MOOC期终成绩 | [答案](/BasicLevel/C语言/1080.c) | | | **时间复杂度** |
 
 
 
