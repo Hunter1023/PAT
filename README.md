@@ -7,7 +7,7 @@
 
 ## 目录
 
-- [使用Java写OJ题的劣势]
+- [使用Java写OJ题的劣势](https://github.com/Hunter1023/PAT-Practice#使用Java写OJ题的劣势)
 - [乙级真题解题目录](https://github.com/Hunter1023/PAT-Practice#乙级真题)
 ---
 
