@@ -15,7 +15,7 @@
 | [1002](/BasicLevel/真题/1002.md) | 写出这个数 | [C答案](/BasicLevel/C语言/1002.c) | | [Java答案](/BasicLevel/Java/1002.java) | 各位数字之和的范围；**正序输出**每一位数字的拼音 |
 | [1003](/BasicLevel/真题/1003.md) | 我要通过！ | [C答案](/BasicLevel/C语言/1003.c) | | [Java答案](/BasicLevel/Java/1003.java) | 正确归纳答案正确的条件 |
 | [1004](/BasicLevel/真题/1004.md) | 成绩排名 | [C答案](/BasicLevel/C语言/1004.c) | | [Java答案](/BasicLevel/Java/1004.java) | \ |
-| [1005](/BasicLevel/真题/1005.md) | 继续(3n+1)猜想 | [C答案](/BasicLevel/C语言/1005.c) | | [Java答案](/BasicLevel/Java/1005.java) | \ |
+| [1005](/BasicLevel/真题/1005.md) | 继续(3n+1)猜想 | [C答案](/BasicLevel/C语言/1005.c) | | [Java答案](/BasicLevel/Java/1005.java) | 筛选关键数字的方式 |
 | [1006](/BasicLevel/真题/1006.md) | 换个格式输出整数 | [C答案](/BasicLevel/C语言/1006.c) | | [Java答案](/BasicLevel/Java/1006.java) | \ |
 | [1007](/BasicLevel/真题/1007.md) | 素数对猜想 | [C答案](/BasicLevel/C语言/1007.c) | | [Java答案](/BasicLevel/Java/1007.java) | \ |
 | [1008](/BasicLevel/真题/1008.md) | 数组元素循环右移问题 | [C答案](/BasicLevel/C语言/1008.c) | | [Java答案](/BasicLevel/Java/1008.java) | \ |

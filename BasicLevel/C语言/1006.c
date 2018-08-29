@@ -1,23 +1,16 @@
 ﻿#include <stdio.h>
 
 int main() {
-	int num;
+	int num;//正整数n < 1000 
 	scanf("%d", &num);
-	
-	int a[3];
-	for(int i = 0; i < 3; i++) {
-		a[i] = num % 10;// a[0]存个位；a[1]存十位；a[2]存百位 
-		num /= 10; 
-	}
-	
-	for (int i = 0; i < a[2]; i++) {
+	for (int i = 0; i < num / 100; i++) {//输出百位 
 		printf("B");
 	} 
-	for (int i = 0; i < a[1]; i++) {
+	for (int i = 0; i < num / 10 % 10; i++) {//输出十位 
 		printf("S");
 	}
-	for (int i = 0; i < a[0]; i++) {
-		printf("%d", i+1);
+	for (int i = 1; i <= num % 10; i++) {//输出个位 
+		printf("%d", i);
 	} 
 	return 0;
 }
