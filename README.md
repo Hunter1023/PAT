@@ -12,7 +12,7 @@
 | 标号 | 标题 | C语言 |    C++  |  Java  | 解题关键 |
 | ---- | ---- | :----: | :----: | :----: | ---- |
 | [1001](/BasicLevel/真题/1001.md) | 害死人不偿命的(3n+1)猜想 | [C答案](/BasicLevel/C语言/1001.c) | | [Java答案](/BasicLevel/Java/1001.java) | \ |
-| [1002](/BasicLevel/真题/1002.md) | 写出这个数 | [C答案](/BasicLevel/C语言/1002.c) | | [Java答案](/BasicLevel/Java/1002.java) | \ |
+| [1002](/BasicLevel/真题/1002.md) | 写出这个数 | [C答案](/BasicLevel/C语言/1002.c) | | [Java答案](/BasicLevel/Java/1002.java) | 各位数字之和的范围；**正序输出**每一位数字的拼音 |
 | [1003](/BasicLevel/真题/1003.md) | 我要通过！ | [C答案](/BasicLevel/C语言/1003.c) | | [Java答案](/BasicLevel/Java/1003.java) | \ |
 | [1004](/BasicLevel/真题/1004.md) | 成绩排名 | [C答案](/BasicLevel/C语言/1004.c) | | [Java答案](/BasicLevel/Java/1004.java) | \ |
 | [1005](/BasicLevel/真题/1005.md) | 继续(3n+1)猜想 | [C答案](/BasicLevel/C语言/1005.c) | | [Java答案](/BasicLevel/Java/1005.java) | \ |
