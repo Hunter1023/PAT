@@ -1,25 +1,33 @@
-﻿#include <stdio.h>
-#include <stdbool.h>
+﻿/*
+ * 1. 相邻且差为2的素数对 的筛选有两种思路：
+ *  - 判断两个相邻的素数 差值是否为2 (伪)
+ *  - 判断差值为2的两个数是否为素数
+ * 即使采用第一种思路，但筛选素数本身就是第二种思路。
+ * 2. 素数有：2、3、5、7...
+ * 		可知，第一对素数对为 (3, 5);
+ * 	由于题目给出数值 <= N，则素数对中较大的数必须<= N;
+ *	故 以5为起始点，遍历奇数，判断相邻的奇数是否为素数对（除2外，偶数必然非素数）
+ * 3. 素数的判断方法：奇数n 能被 <= sqrt(n) 的奇数整除，即为素数
+ */
+#include <stdio.h>
 
-bool isprime(int num);
+int isPrime(int num) {
+	for (int i = 3; i * i <= num; i += 2) {//根据能否被 <= sqrt(i) 的奇数整除， 判断素数 
+		if (num % i == 0) {// 能整除，不是素数 
+			return 0;
+		} 
+	}
+	return 1; 
+}
 int main() {
 	int num;
 	scanf("%d", &num);
 	int cnt = 0; //对满足条件的素数对计数 
-	
-	for( int i = 5; i <= num; i += 2) {//遍历从5开始的奇数 
-		if(isprime(i) && isprime(i-2)) {// 如果相差2的两个奇数是素数 
+	for ( int i = 5; i <= num; i += 2) {//遍历从5开始的奇数 
+		if (isPrime(i) && isPrime(i-2)) {// 如果相差2的两个奇数是素数 
 			cnt++; 
 		}
 	}
-	printf("%d", cnt);
+	printf("%d\n", cnt);
 	return 0; 
-}
-bool isprime(int num) {
-	for (int i = 3; i * i <= num; i += 2) {//根据能否被 <= sqrt(i) 的奇数整除， 判断素数 
-		if (num % i == 0) {// 能整除，不是素数 
-			return false;
-		} 
-	}
-	return true; 
 }
