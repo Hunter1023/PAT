@@ -1,5 +1,6 @@
 ## PAT(Programming Ability Test)  
 　　PAT（计算机程序设计能力考试）是由浙江大学计算机科学与技术学院组织的统一考试，旨在培养和展现学生分析问题、解决问题和计算机程序设计的能力，科学评价计算机程序设计人才，并为企业选拔人才提供参考标准。
+![AC](https://raw.githubusercontent.com/Hunter1023/PAT-Practice/master/images/BasicAC.png)
 
 ## 目录
 1. [乙级真题题解](https://github.com/Hunter1023/PAT-Practice#乙级真题题解)
@@ -25,8 +26,8 @@
 | [1013](/BasicLevel/真题/1013.md) | 数素数 | [C答案](/BasicLevel/C语言/1013.c) | | [Java答案](/BasicLevel/Java/1013.java) | \ |
 | [1014](/BasicLevel/真题/1014.md) | 福尔摩斯的约会 | [C答案](/BasicLevel/C语言/1014.c) | | [Java答案](/BasicLevel/Java/1014.java) | **正确归纳**解码方式 |
 | [1015](/BasicLevel/真题/1015.md) | 德才论 | [C答案](/BasicLevel/C语言/1015.c) | | | 成绩的分类 |
-| [1016](/BasicLevel/真题/1016.md) | 部分A+B | [C答案](/BasicLevel/C语言/1016.c) | | | \ |
-| [1017](/BasicLevel/真题/1017.md) | A除以B | [C答案](/BasicLevel/C语言/1017.c) | | | \ |
+| [1016](/BasicLevel/真题/1016.md) | 部分A+B | [C答案](/BasicLevel/C语言/1016.c) | | | 输入数字的取值范围 |
+| [1017](/BasicLevel/真题/1017.md) | A除以B | [C答案](/BasicLevel/C语言/1017.c) | | | 将除法的特点转换为计算机语言 |
 | [1018](/BasicLevel/真题/1018.md) | 锤子剪刀布 | [C答案](/BasicLevel/C语言/1018.c) | | | \ |
 | [1019](/BasicLevel/真题/1019.md) | 数字黑洞 | [C答案](/BasicLevel/C语言/1019.c) | | | \ |
 | [1020](/BasicLevel/真题/1020.md) | 月饼 | [C答案](/BasicLevel/C语言/1020.c) | | | \ |
