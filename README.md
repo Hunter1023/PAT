@@ -2,9 +2,8 @@
 　　PAT（计算机程序设计能力考试）是由浙江大学计算机科学与技术学院组织的统一考试，旨在培养和展现学生分析问题、解决问题和计算机程序设计的能力，科学评价计算机程序设计人才，并为企业选拔人才提供参考标准。
 
 ## 目录
-
-- [使用Java写OJ题的劣势](https://github.com/Hunter1023/PAT-Practice#使用Java写OJ题的劣势)
-- [乙级真题题解](https://github.com/Hunter1023/PAT-Practice#乙级真题题解)
+1. [乙级真题题解](https://github.com/Hunter1023/PAT-Practice#乙级真题题解)
+2. [使用Java写OJ题的劣势](https://github.com/Hunter1023/PAT-Practice#使用Java写OJ题的劣势)
 ---
 
 ## 乙级真题题解
@@ -17,9 +16,9 @@
 | [1004](/BasicLevel/真题/1004.md) | 成绩排名 | [C答案](/BasicLevel/C语言/1004.c) | | [Java答案](/BasicLevel/Java/1004.java) | \ |
 | [1005](/BasicLevel/真题/1005.md) | 继续(3n+1)猜想 | [C答案](/BasicLevel/C语言/1005.c) | | [Java答案](/BasicLevel/Java/1005.java) | 筛选关键数字的方式 |
 | [1006](/BasicLevel/真题/1006.md) | 换个格式输出整数 | [C答案](/BasicLevel/C语言/1006.c) | | [Java答案](/BasicLevel/Java/1006.java) | \ |
-| [1007](/BasicLevel/真题/1007.md) | 素数对猜想 | [C答案](/BasicLevel/C语言/1007.c) | | [Java答案](/BasicLevel/Java/1007.java) | \ |
-| [1008](/BasicLevel/真题/1008.md) | 数组元素循环右移问题 | [C答案](/BasicLevel/C语言/1008.c) | | [Java答案](/BasicLevel/Java/1008.java) | \ |
-| [1009](/BasicLevel/真题/1009.md) | 说反话 | [C答案](/BasicLevel/C语言/1009.c) | | [Java答案](/BasicLevel/Java/1009.java) | \ |
+| [1007](/BasicLevel/真题/1007.md) | 素数对猜想 | [C答案](/BasicLevel/C语言/1007.c) | | [Java答案](/BasicLevel/Java/1007.java) | 素数对的筛选方式；素数的判断方法 |
+| [1008](/BasicLevel/真题/1008.md) | 数组元素循环右移问题 | [C答案](/BasicLevel/C语言/1008.c) | | [Java答案](/BasicLevel/Java/1008.java) | **元素循环右移的高效移动方式** |
+| [1009](/BasicLevel/真题/1009.md) | 说反话 | [C答案](/BasicLevel/C语言/1009.c) | | [Java答案](/BasicLevel/Java/1009.java) | **句子颠倒，单词本身不颠倒** |
 | [1010](/BasicLevel/真题/1010.md) | 一元多项式求导 | [C答案](/BasicLevel/C语言/1010.c) | | [Java答案](/BasicLevel/Java/1010.java) | \ |
 | [1011](/BasicLevel/真题/1011.md) | A+B和C | [C答案](/BasicLevel/C语言/1011.c) | | [Java答案](/BasicLevel/Java/1011.java) | \ |
 | [1012](/BasicLevel/真题/1012.md) | 数字分类 | [C答案](/BasicLevel/C语言/1012.c) | | [Java答案](/BasicLevel/Java/1012.java) | \ |
