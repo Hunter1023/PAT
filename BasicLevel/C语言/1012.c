@@ -1,14 +1,12 @@
 ﻿#include <stdio.h>
-#include <stdbool.h>
 
 int main() {
-	int N = 0, num, A1 = 0, A2 = 0, A3, A5 = 0;
-	int cnt[5] = {0, 0, 0, 0, 0};//统计符合各分类的数字数量 
+	int N, num, A1 = 0, A2 = 0, A3, A5 = 0;
+	int cnt[5] = {0, 0, 0, 0, 0}, isOdd = 1; //统计符合各分类的数字数量；是否为奇数 
 	double A4 = 0.0;
-	bool isOdd = true;
-	scanf("%d", &N);
+	scanf("%d", &N);//读取整数数量
 	while (N-- > 0) {
-		scanf("%d", &num);
+		scanf("%d", &num);//读取数字
 		if (num % 10 == 0) {//被5整除的数字中的偶数 
 			cnt[0]++;
 			A1 += num; 

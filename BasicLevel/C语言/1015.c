@@ -1,27 +1,31 @@
-﻿/* 本题重点在于排序函数qsort对应的比较函数cmp的构造 */
+﻿/* 
+ * 先分类：1.德才全尽；2.德胜才；3.才德兼亡尚有德胜才；4.剩余及格的考生
+ * 后排序：总分降序；德分降序；准考证号升序
+ */
 #include <stdio.h>
 #include <stdlib.h>
 
 typedef struct{
-	int num, de, cai; //准考证号、德分、才分 
+	int num; //准考证号
+	int de; //德分
+	int cai; //才分 
 } examinee;
 int cmp(const void *a, const void *b) {
-	examinee *one = (examinee *)a;
-	examinee *tow = (examinee *)b;
-	
-	if ((one->de + one->cai) != (tow->de + tow->cai)) {
-		return (one->de + one->cai) < (tow->de + tow->cai); //比较总分 
-	} else if ( one->de != tow->de) {
-		return one->de < tow->de; //比较德分 
+	examinee e1 = *(examinee *)a;
+	examinee e2 = *(examinee *)b;
+	if ((e1.de + e1.cai) != (e2.de + e2.cai)) {//总分降序 
+		return (e2.de + e2.cai) > (e1.de + e1.cai);  
+	} else if ( e1.de != e2.de) { //德分降序 
+		return e2.de > e1.de;
 	} else {
-		return one->num > tow->num; //比较准考证号 
+		return e1.num > e2.num; //准考证号升序 
 	}
 }
 int main() {
 	int N, L, H; //考生总数、最低和最高分数线
 	scanf("%d %d %d", &N, &L, &H);
 	int num, de, cai; //准考证号、德分、才分 
-	int cnt[5] = {0, 0, 0, 0,}; //四类考生的数量 
+	int cnt[4] = {0}; //四类考生的数量 
 	examinee order[4][N];
 	while (N-- > 0) { //读入考生信息 
 		scanf("%d %d %d", &num, &de, &cai);

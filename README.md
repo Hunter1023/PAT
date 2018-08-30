@@ -19,13 +19,13 @@
 | [1007](/BasicLevel/真题/1007.md) | 素数对猜想 | [C答案](/BasicLevel/C语言/1007.c) | | [Java答案](/BasicLevel/Java/1007.java) | 素数对的筛选方式；素数的判断方法 |
 | [1008](/BasicLevel/真题/1008.md) | 数组元素循环右移问题 | [C答案](/BasicLevel/C语言/1008.c) | | [Java答案](/BasicLevel/Java/1008.java) | **元素循环右移的高效移动方式** |
 | [1009](/BasicLevel/真题/1009.md) | 说反话 | [C答案](/BasicLevel/C语言/1009.c) | | [Java答案](/BasicLevel/Java/1009.java) | **句子颠倒，单词本身不颠倒** |
-| [1010](/BasicLevel/真题/1010.md) | 一元多项式求导 | [C答案](/BasicLevel/C语言/1010.c) | | [Java答案](/BasicLevel/Java/1010.java) | \ |
-| [1011](/BasicLevel/真题/1011.md) | A+B和C | [C答案](/BasicLevel/C语言/1011.c) | | [Java答案](/BasicLevel/Java/1011.java) | \ |
-| [1012](/BasicLevel/真题/1012.md) | 数字分类 | [C答案](/BasicLevel/C语言/1012.c) | | [Java答案](/BasicLevel/Java/1012.java) | \ |
+| [1010](/BasicLevel/真题/1010.md) | 一元多项式求导 | [C答案](/BasicLevel/C语言/1010.c) | | [Java答案](/BasicLevel/Java/1010.java) | 指数为0的项的处理 |
+| [1011](/BasicLevel/真题/1011.md) | A+B和C | [C答案](/BasicLevel/C语言/1011.c) | | [Java答案](/BasicLevel/Java/1011.java) | 输入的数值范围 |
+| [1012](/BasicLevel/真题/1012.md) | 数字分类 | [C答案](/BasicLevel/C语言/1012.c) | | [Java答案](/BasicLevel/Java/1012.java) | 有条不紊地整理 |
 | [1013](/BasicLevel/真题/1013.md) | 数素数 | [C答案](/BasicLevel/C语言/1013.c) | | [Java答案](/BasicLevel/Java/1013.java) | \ |
-| [1014](/BasicLevel/真题/1014.md) | 福尔摩斯的约会 | [C答案](/BasicLevel/C语言/1014.c) | | [Java答案](/BasicLevel/Java/1014.java) | \ |
-| [1015](/BasicLevel/真题/1015.md) | 部分A+B | [C答案](/BasicLevel/C语言/1015.c) | | | \ |
-| [1016](/BasicLevel/真题/1016.md) | 成绩排名 | [C答案](/BasicLevel/C语言/1016.c) | | | \ |
+| [1014](/BasicLevel/真题/1014.md) | 福尔摩斯的约会 | [C答案](/BasicLevel/C语言/1014.c) | | [Java答案](/BasicLevel/Java/1014.java) | **正确归纳**解码方式 |
+| [1015](/BasicLevel/真题/1015.md) | 德才论 | [C答案](/BasicLevel/C语言/1015.c) | | | 成绩的分类 |
+| [1016](/BasicLevel/真题/1016.md) | 部分A+B | [C答案](/BasicLevel/C语言/1016.c) | | | \ |
 | [1017](/BasicLevel/真题/1017.md) | A除以B | [C答案](/BasicLevel/C语言/1017.c) | | | \ |
 | [1018](/BasicLevel/真题/1018.md) | 锤子剪刀布 | [C答案](/BasicLevel/C语言/1018.c) | | | \ |
 | [1019](/BasicLevel/真题/1019.md) | 数字黑洞 | [C答案](/BasicLevel/C语言/1019.c) | | | \ |
