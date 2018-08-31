@@ -32,7 +32,7 @@
 | [1019](/BasicLevel/真题/1019.md) | 数字黑洞 | [C答案](/BasicLevel/C语言/1019.c) | | | 若输入数字为6174 |
 | [1020](/BasicLevel/真题/1020.md) | 月饼 | [C答案](/BasicLevel/C语言/1020.c) | | | 若全部库存仍无法满足需求 |
 | [1021](/BasicLevel/真题/1021.md) | 个位数统计 | [C答案](/BasicLevel/C语言/1021.c) | | | \ |
-| [1022](/BasicLevel/真题/1022.md) | D进制的A+B | [C答案](/BasicLevel/C语言/1022.c) | | | \ |
+| [1022](/BasicLevel/真题/1022.md) | D进制的A+B | [C答案](/BasicLevel/C语言/1022.c) | | | A + B = 0 |
 | [1023](/BasicLevel/真题/1023.md) | 组个最小数 | [C答案](/BasicLevel/C语言/1023.c) | | | \ |
 | [1024](/BasicLevel/真题/1024.md) | 科学计数法 | [C答案](/BasicLevel/C语言/1024.c) | | | \ |
 | [1025](/BasicLevel/真题/1025.md) | 反转链表 | [C答案](/BasicLevel/C语言/1025.c) | | | \ |

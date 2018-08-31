@@ -1,9 +1,10 @@
-﻿#include <stdio.h>
+﻿/* A + B = 0时，输出0 */
+#include <stdio.h>
 
 int main() {
-	int A, B, D, sum;
+	int A, B, D, sum; //D为进制
 	scanf("%d %d %d", &A, &B, &D);
-	sum = A + B;// 和 <= 2^31,因此即使1进制，总共的位数 <= 10^10
+	sum = A + B; // 和< 2^31,因此即使1进制，总共的位数 < 10^10
 	int num[100] = {0}, index = 0;//记录位数上对应的数
  	do {
 		num[index++] = sum % D;
