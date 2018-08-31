@@ -28,9 +28,9 @@
 | [1015](/BasicLevel/真题/1015.md) | 德才论 | [C答案](/BasicLevel/C语言/1015.c) | | | 成绩的分类 |
 | [1016](/BasicLevel/真题/1016.md) | 部分A+B | [C答案](/BasicLevel/C语言/1016.c) | | | 输入数字的取值范围 |
 | [1017](/BasicLevel/真题/1017.md) | A除以B | [C答案](/BasicLevel/C语言/1017.c) | | | 将除法的特点转换为计算机语言 |
-| [1018](/BasicLevel/真题/1018.md) | 锤子剪刀布 | [C答案](/BasicLevel/C语言/1018.c) | | | \ |
-| [1019](/BasicLevel/真题/1019.md) | 数字黑洞 | [C答案](/BasicLevel/C语言/1019.c) | | | \ |
-| [1020](/BasicLevel/真题/1020.md) | 月饼 | [C答案](/BasicLevel/C语言/1020.c) | | | \ |
+| [1018](/BasicLevel/真题/1018.md) | 锤子剪刀布 | [C答案](/BasicLevel/C语言/1018.c) | | | `%c`读取字符要注意回车的处理 |
+| [1019](/BasicLevel/真题/1019.md) | 数字黑洞 | [C答案](/BasicLevel/C语言/1019.c) | | | 若输入数字为6174 |
+| [1020](/BasicLevel/真题/1020.md) | 月饼 | [C答案](/BasicLevel/C语言/1020.c) | | | 若全部库存仍无法满足需求 |
 | [1021](/BasicLevel/真题/1021.md) | 个位数统计 | [C答案](/BasicLevel/C语言/1021.c) | | | \ |
 | [1022](/BasicLevel/真题/1022.md) | D进制的A+B | [C答案](/BasicLevel/C语言/1022.c) | | | \ |
 | [1023](/BasicLevel/真题/1023.md) | 组个最小数 | [C答案](/BasicLevel/C语言/1023.c) | | | \ |

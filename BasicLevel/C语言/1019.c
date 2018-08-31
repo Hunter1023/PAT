@@ -1,38 +1,34 @@
-﻿#include <stdio.h>
+﻿/** 
+ * 1. 利用数组，对读入的数字进行重新排序 
+ * 2. 输入为6174时，也需要有一行输出
+ */
+#include <stdio.h>
+#include <stdlib.h>
 
-int calculate(int num, int *arr, int len);
-int main() {
-	int num;
-	scanf("%d", &num);
-	int arr[4] = {0};//数组
-	int result = 0;
-	do {
-		result = calculate(result, arr, 4);
-	} while (result != 0 && result != 6174); 
-	return 0; 
+int cmp(const void *a, const void *b) { 
+	return *(int *)b > *(int *)a; //降序
 }
-int calculate(int num, int *arr, int len) {
-	int i = 0, max = 0, min = 0;//数组下标，最大值，最小值 
-	while (num / 10 != 0 || num % 10 != 0) { 
-		arr[i++] = num % 10;
-		num /= 10;
-	} 
-	for (int i = 0; i < len - 1; i++) {//降序排序 
-		for (int j = 0; j < len - i - 1; j++) {
-			if (arr[j] < arr[j+1]) {
-				int temp = arr[j];
-				arr[j] = arr[j+1];
-				arr[j+1] = temp;
-			}
+int main() {
+	int N;
+	scanf("%d", &N);
+	while (N != 0) { //N不为0
+		int arr[4] = {0}, i = 0, max, min;//数组，数组下标，最大值，最小值 
+		while (N > 0) { //将读入的数字 按位拆分成4个数字 
+			arr[i++] = N % 10;
+			N /= 10;
 		} 
-	}
-	max = arr[0] * 1000 + arr[1] * 100 + arr[2] * 10 + arr[3];
-	min = arr[0] + arr[1] * 10 + arr[2] * 100 + arr[3] * 1000;
-	int result = max - min;
-	if (result == 0) {
-		printf("%04d - %04d = 0000\n", max, min);
-	} else {
-		printf("%04d - %04d = %04d\n", max, min, result);
-	}
-	return result;
+		qsort(arr, 4, sizeof(int), cmp);
+		max = arr[0] * 1000 + arr[1] * 100 + arr[2] * 10 + arr[3];
+		min = arr[0] + arr[1] * 10 + arr[2] * 100 + arr[3] * 1000;
+		N = max - min;
+		if (N == 0) {
+			printf("%04d - %04d = 0000\n", max, min);
+		} else {
+			printf("%04d - %04d = %04d\n", max, min, N);
+			if (N == 6174) { //为 Kaprekar常数 
+				break;
+			}
+		}
+	} 
+	return 0; 
 }

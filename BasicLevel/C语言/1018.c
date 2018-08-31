@@ -1,12 +1,14 @@
-﻿#include <stdio.h>
+﻿/* 用 getchar() 或 scanf()时写明\n，避免回车被%c读取 */
+#include <stdio.h>
 
 int main() {
-	int N, Awin = 0, Alose = 0;
+	int N, Awin = 0, Alose = 0;//交锋次数，A赢的次数 和 输的次数
 	char A, B;
 	int cnt_A[3] = {0}, cnt_B[3] = {0};//统计各手势获胜的次数 
 	scanf("%d", &N); 
 	for (int i = 0; i < N; i++) {
-		scanf("\n%c %c", &A, &B); // 注意%c，会将回车、空格、空格读入 
+		getchar(); // %c会将回车、空格、换行读入 
+		scanf("%c %c", &A, &B); 
 		if (A == 'B' && B == 'C') {// 注意手势计数下标要正确 
 			Awin++;
 			cnt_A[0]++;
