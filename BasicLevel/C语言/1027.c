@@ -1,4 +1,6 @@
-﻿/* 平方根的函数 double sqrt(double x); */
+﻿/**
+ * 平方根的函数 double sqrt(double x); 
+ */
 #include <stdio.h>
 #include <math.h>
 
