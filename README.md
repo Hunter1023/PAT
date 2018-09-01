@@ -47,9 +47,9 @@
 | [1034](/BasicLevel/真题/1034.md) | 有理数四则运算 | [C答案](/BasicLevel/C语言/1034.c) | | | **合理解耦** |
 | [1035](/BasicLevel/真题/1035.md) | 插入与归并 | [C答案](/BasicLevel/C语言/1035.c) | | | ![Basic1035](/images/Basic1035.jpg) |
 | [1036](/BasicLevel/真题/1036.md) | 跟奥巴马一起编程 | [C答案](/BasicLevel/C语言/1036.c) | | | 四舍五入 |
-| [1037](/BasicLevel/真题/1037.md) | 在霍格沃茨找零钱 | [C答案](/BasicLevel/C语言/1037.c) | | | 判断正负&进制换算 |
+| [1037](/BasicLevel/真题/1037.md) | 在霍格沃茨找零钱 | [C答案](/BasicLevel/C语言/1037.c) | | | 进制换算 |
 | [1038](/BasicLevel/真题/1038.md) | 统计同成绩学生 | [C答案](/BasicLevel/C语言/1038.c) | | | 找准解题角度 |
-| [1039](/BasicLevel/真题/1039.md) | 到底买不买 | [C答案](/BasicLevel/C语言/1039.c) | | | 对珠子的判断方式 |
+| [1039](/BasicLevel/真题/1039.md) | 到底买不买 | [C答案](/BasicLevel/C语言/1039.c) | | | **对珠子的判断方式** |
 | [1040](/BasicLevel/真题/1040.md) | 有几个PAT | [C答案](/BasicLevel/C语言/1040.c) | | | **重要** |
 | [1041](/BasicLevel/真题/1041.md) | 考试座位号 | [C答案](/BasicLevel/C语言/1041.c) | | | \ |
 | [1042](/BasicLevel/真题/1042.md) | 字符统计 | [C答案](/BasicLevel/C语言/1042.c) | | | 确认筛选条件 |
