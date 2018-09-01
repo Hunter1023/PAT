@@ -1,15 +1,16 @@
 ﻿/*
- * 1.要理解好插入排序和归并排序
- *	1.1 插入排序：按顺序取元素，进行插入排序。未排序部分和初始序列一定相同
- *	1.2 归并排序：有序子序列的元素个数必然为2^n，末尾不足数量的子序列同样需要排序
- * 2. 掌握好 qsort() 函数，例如对部分元素的排序，函数第一个参数实质是元素的地址
- * 3. 显然是否为插入排序更容易判断，因此将其作为判断排序类型的切入点
+ * 1. 插入排序的重要特征：
+ *		未排序部分和初始序列一定相同
+ * 2. 归并排序的重要特征：
+ *		末尾不足数量的子序列同样需要排序
+ * 3. 利用 qsort() 函数，对部分元素的排序
+ * 4. 显然 是否为插入排序 更容易判断，将其作为判断排序类型的切入点
  */
 #include <stdio.h>
 #include <stdlib.h>
 
-int cmp(const void *a,const void *b) {//元素的比较函数 
-	return *(int *)a - *(int *)b;
+int cmp(const void *a,const void *b) {
+	return *(int *)a - *(int *)b;//升序 
 }
 int main() {
 	int N;
@@ -21,10 +22,7 @@ int main() {
 		}
 	}
 	int cnt_order =  1;//有序的数量
-	for (int i = 0; i < N - 1; i++) {//统计中间序列有序的数量 
-		if (arr[1][i] > arr[1][i+1]) {
-			break;
-		}
+	for (int i = 0; arr[1][i] <= arr[1][i+1] && i < N - 1; i++) {//统计中间序列有序的数量 
 		cnt_order++;
 	} 
 	int isInsert = 1;//是否为插入排序 
@@ -51,9 +49,9 @@ int main() {
             k *= 2;//有序子序列的元素个数 
             int i;
             for (i = 0; i < N / k; i++) {//需要归并的次数 
-				qsort(&arr[0][i*k], k, sizeof(int), cmp);//对数组部分元素 归并排序 
+				qsort(arr[0]+ i * k, k, sizeof(int), cmp);//对数组部分元素 归并排序 
 			} 
-            qsort(&arr[0][i*k], N - i * k, sizeof(int), cmp);//对末尾 不足有序子序列数量的元素排序 
+            qsort(arr[0]+ i * k, N - i * k, sizeof(int), cmp);//对末尾 不足有序子序列数量的元素排序 
         }
 	}
 	for(int i = 0; i < N-1; i++) {//输出数组 
