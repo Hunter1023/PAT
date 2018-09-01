@@ -38,12 +38,12 @@
 | [1025](/BasicLevel/真题/1025.md) | 反转链表 | [C答案](/BasicLevel/C语言/1025.c) | | | **可能存在无效节点** |
 | [1026](/BasicLevel/真题/1026.md) | 程序运行时间 | [C答案](/BasicLevel/C语言/1026.c) | | | 四舍五入 |
 | [1027](/BasicLevel/真题/1027.md) | 打印沙漏 | [C答案](/BasicLevel/C语言/1027.c) | | | 沙漏高度和符号数量的关系 |
-| [1028](/BasicLevel/真题/1028.md) | 人口普查 | [C答案](/BasicLevel/C语言/1028.c) | | | \ |
-| [1029](/BasicLevel/真题/1029.md) | 旧键盘 | [C答案](/BasicLevel/C语言/1029.c) | | | \ |
-| [1030](/BasicLevel/真题/1030.md) | 完美数列 | [C答案](/BasicLevel/C语言/1030.c) | | | \ |
+| [1028](/BasicLevel/真题/1028.md) | 人口普查 | [C答案](/BasicLevel/C语言/1028.c) | | | **不合理年龄的判断方式** |
+| [1029](/BasicLevel/真题/1029.md) | 旧键盘 | [C答案](/BasicLevel/C语言/1029.c) | | | 坏键的判断方式 |
+| [1030](/BasicLevel/真题/1030.md) | 完美数列 | [C答案](/BasicLevel/C语言/1030.c) | | | 高效地判断完美数列 |
 | [1031](/BasicLevel/真题/1031.md) | 查验身份证 | [C答案](/BasicLevel/C语言/1031.c) | | | \ |
-| [1032](/BasicLevel/真题/1032.md) | 挖掘机技术哪家强 | [C答案](/BasicLevel/C语言/1032.c) | | | \ |
-| [1033](/BasicLevel/真题/1033.md) | 旧键盘打字 | [C答案](/BasicLevel/C语言/1033.c) | | | \ |
+| [1032](/BasicLevel/真题/1032.md) | 挖掘机技术哪家强 | [C答案](/BasicLevel/C语言/1032.c) | | | 统计各学校总分的方式 |
+| [1033](/BasicLevel/真题/1033.md) | 旧键盘打字 | [C答案](/BasicLevel/C语言/1033.c) | | | 运行超时 |
 | [1034](/BasicLevel/真题/1034.md) | 有理数四则运算 | [C答案](/BasicLevel/C语言/1034.c) | | | \ |
 | [1035](/BasicLevel/真题/1035.md) | 插入与归并 | [C答案](/BasicLevel/C语言/1035.c) | | | \ |
 | [1036](/BasicLevel/真题/1036.md) | 跟奥巴马一起编程 | [C答案](/BasicLevel/C语言/1036.c) | | | 四舍五入 |

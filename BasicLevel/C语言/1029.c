@@ -1,6 +1,6 @@
 ﻿/*
- * 1. 大小写转换函数  <ctype.h> int toupper(int); int tolower(int);
- * 2. 字符串中查找字符  <string.h> char *strchr(const char *s,char c);//不存在则返回NULL
+ * 1. 字母坏键只输出大写；故最差情况按键全坏为，37个字符
+ * 2. 利用 char *strchr(const char *s,char c);//不存在则返回NULL  判断是否坏键
  */
 #include <stdio.h>
 #include <string.h>

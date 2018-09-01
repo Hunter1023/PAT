@@ -1,21 +1,22 @@
-﻿#include <stdio.h>
+﻿/* 将数组下标作为学校编号，累加成绩 */
+#include <stdio.h>
 
 int main() {
-	int N;
+	int N; //参赛人数
 	scanf("%d", &N);
-	int player[N+1];
-	for (int i = 1; i < N+1; i++) {
+	int player[N];
+	for (int i = 0; i < N; i++) {//初始化 
 		player[i] = 0;
 	}
-	while (N-- > 0) {
-		int i = 0, grades = 0;
-		scanf("%d %d", &i, &grades);
-		player[i] += grades;
+	for (int i = 0; i < N; i++) {
+		int index, grades;
+		scanf("%d %d", &index, &grades);
+		player[index-1] += grades;
 	}
-	int max_index = 0, max = 0;
-	for (int i = 1; i < sizeof(player)/ sizeof(int); i++) {
+	int max_index, max = 0;
+	for (int i = 0; i < N; i++) {
 		if (player[i] > max) {
-			max_index = i;
+			max_index = i + 1;
 			max = player[i];
 		}
 	}

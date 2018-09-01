@@ -1,7 +1,7 @@
 ﻿/*
- * 1. 把src的字符串复制给dst  char* strcpy(char *restrict dst, const char *restrict src);
- * 2. 考虑全为不合理年龄的情况
- * 3. 输入格式正确的前提下，合理年龄的判断可以将字符串形式的日期转为整数，直接比较
+ * 1. 输入格式正确的前提下，可以将字符串形式的日期转为整数，直接判断年龄是否合理
+ * 2. 2014/9/6之后 和 1814/9/6之前，为不合理年龄
+ * 3. 考虑 全为不合理年龄的情况
  */
 #include <stdio.h>
 #include <string.h>
@@ -16,7 +16,7 @@ int main() {
 	for (int i = 0; i < N; i++) {
 		scanf("%s %d/%d/%d", name, &year, &month, &day);
 		int age = year*10000 + month*100 + day;
-		if (age < 20140907 && age > 18140905) {//如果是合理年龄 
+		if (age < maxAge && age > minAge) {//如果是合理年龄 
 			cnt++;
 			if (age < maxAge ) {//最年长 
 				maxAge = age;
@@ -30,7 +30,7 @@ int main() {
 	} 
 	if (cnt != 0) {
 		printf("%d %s %s\n", cnt, old_name, young_name);
-	} else {
+	} else {//全为无效生日
 		printf("0\n");
 	}
 	return 0;
