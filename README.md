@@ -37,7 +37,7 @@
 | [1024](/BasicLevel/真题/1024.md) | 科学计数法 | [C答案](/BasicLevel/C语言/1024.c) | | | **小数点的输出** |
 | [1025](/BasicLevel/真题/1025.md) | 反转链表 | [C答案](/BasicLevel/C语言/1025.c) | | | **可能存在无效节点** |
 | [1026](/BasicLevel/真题/1026.md) | 程序运行时间 | [C答案](/BasicLevel/C语言/1026.c) | | | 四舍五入 |
-| [1027](/BasicLevel/真题/1027.md) | 打印沙漏 | [C答案](/BasicLevel/C语言/1027.c) | | | \ |
+| [1027](/BasicLevel/真题/1027.md) | 打印沙漏 | [C答案](/BasicLevel/C语言/1027.c) | | | 沙漏高度和符号数量的关系 |
 | [1028](/BasicLevel/真题/1028.md) | 人口普查 | [C答案](/BasicLevel/C语言/1028.c) | | | \ |
 | [1029](/BasicLevel/真题/1029.md) | 旧键盘 | [C答案](/BasicLevel/C语言/1029.c) | | | \ |
 | [1030](/BasicLevel/真题/1030.md) | 完美数列 | [C答案](/BasicLevel/C语言/1030.c) | | | \ |

@@ -1,37 +1,28 @@
 ﻿/**
- * 平方根的函数 double sqrt(double x); 
+ * 沙漏图形的特征：
+ * 	1. 上下对称；上半个沙漏符号数量 (1+3+5+...) 
+ *		可得出总符号数 N 和半个沙漏高度 H 的关系 ==> 2 * H * H - 1 <= N
+ * 	2. 上半部分： 每行空格数量递增 +1；符号数量递减 -2
+ * 每行的输出 
+ *	根据对称性，可以用绝对值函数 abs()，减少代码量；
  */
 #include <stdio.h>
 #include <math.h>
 
 int main() {
-	int N;
-	char sign;
-	scanf("%d %c", &N, &sign);
-	int h = (int)sqrt((N+1) / 2.0); //半个沙漏的高度 
-	int max = 2 * h - 1;
-	int cnt_space = 0;//空格数量 
-	for (int i = max; i > 0; i -= 2) {
-		for (int j = 0; j < cnt_space; j++) {
+    int N, h;//符号的数量 ，半个沙漏的高度 
+    char sign; //符号 
+    scanf("%d %c", &N, &sign);
+    h = (int)sqrt((N+1) / 2.0);
+    for (int i = 0; i < 2 * h - 1; i ++) {//输出每行内容 
+        for (int j = 0; j < h - 1 - abs(h - 1 - i); j++) {
 			printf(" ");
-		}
-		cnt_space++;
-		for (int j = i; j > 0; j--) {
+		} 
+        for (int j = 0; j < 2 * abs(h - 1 - i) + 1; j++) {
 			printf("%c", sign);
-		}
-		printf("\n");
-	}
-	cnt_space -= 2;
-	for (int i = 3; i <= max; i += 2) {
-		for (int j = 0; j < cnt_space; j++) {
-			printf(" ");
-		}
-		cnt_space--;
-		for (int j = i; j > 0; j--) {
-			printf("%c", sign);
-		}
-		printf("\n");
-	}
-	printf("%d",N + 1 - 2*h*h);
-	return 0;
+		} 
+        putchar('\n');
+    }
+    printf("%d", N - 2 * h * h + 1);
+    return 0;
 }
