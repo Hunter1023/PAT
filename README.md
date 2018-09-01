@@ -45,7 +45,7 @@
 | [1032](/BasicLevel/真题/1032.md) | 挖掘机技术哪家强 | [C答案](/BasicLevel/C语言/1032.c) | | | 统计各学校总分的方式 |
 | [1033](/BasicLevel/真题/1033.md) | 旧键盘打字 | [C答案](/BasicLevel/C语言/1033.c) | | | 运行超时 |
 | [1034](/BasicLevel/真题/1034.md) | 有理数四则运算 | [C答案](/BasicLevel/C语言/1034.c) | | | **合理解耦** |
-| [1035](/BasicLevel/真题/1035.md) | 插入与归并 | [C答案](/BasicLevel/C语言/1035.c) | | | ![Basic1035](/images/Basic1035.jpeg) |
+| [1035](/BasicLevel/真题/1035.md) | 插入与归并 | [C答案](/BasicLevel/C语言/1035.c) | | | ![Basic1035](/images/Basic1035.jpg) |
 | [1036](/BasicLevel/真题/1036.md) | 跟奥巴马一起编程 | [C答案](/BasicLevel/C语言/1036.c) | | | 四舍五入 |
 | [1037](/BasicLevel/真题/1037.md) | 在霍格沃茨找零钱 | [C答案](/BasicLevel/C语言/1037.c) | | | 判断正负&进制换算 |
 | [1038](/BasicLevel/真题/1038.md) | 统计同成绩学生 | [C答案](/BasicLevel/C语言/1038.c) | | | 找准解题角度 |
