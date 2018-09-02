@@ -50,12 +50,12 @@
 | [1037](/BasicLevel/真题/1037.md) | 在霍格沃茨找零钱 | [C答案](/BasicLevel/C语言/1037.c) | | | 进制换算 |
 | [1038](/BasicLevel/真题/1038.md) | 统计同成绩学生 | [C答案](/BasicLevel/C语言/1038.c) | | | 找准解题角度 |
 | [1039](/BasicLevel/真题/1039.md) | 到底买不买 | [C答案](/BasicLevel/C语言/1039.c) | | | **对珠子的判断方式** |
-| [1040](/BasicLevel/真题/1040.md) | 有几个PAT | [C答案](/BasicLevel/C语言/1040.c) | | | **重要** |
+| [1040](/BasicLevel/真题/1040.md) | 有几个PAT | [C答案](/BasicLevel/C语言/1040.c) | | | **A前有P，后有T才能形成PAT** |
 | [1041](/BasicLevel/真题/1041.md) | 考试座位号 | [C答案](/BasicLevel/C语言/1041.c) | | | \ |
-| [1042](/BasicLevel/真题/1042.md) | 字符统计 | [C答案](/BasicLevel/C语言/1042.c) | | | 确认筛选条件 |
+| [1042](/BasicLevel/真题/1042.md) | 字符统计 | [C答案](/BasicLevel/C语言/1042.c) | | | 确认好筛选条件 |
 | [1043](/BasicLevel/真题/1043.md) | 输出PATest | [C答案](/BasicLevel/C语言/1043.c) | | | \ |
 | [1044](/BasicLevel/真题/1044.md) | 火星数字 | [C答案](/BasicLevel/C语言/1044.c) | | | 火星文表达的特点 |
-| [1045](/BasicLevel/真题/1045.md) | 快速排序 | [C答案](/BasicLevel/C语言/1045.c) | | | **重要** |
+| [1045](/BasicLevel/真题/1045.md) | 快速排序 | [C答案](/BasicLevel/C语言/1045.c) | | | ![Basic1045](/images/Basic1045.jpg) |
 | [1046](/BasicLevel/真题/1046.md) | 划拳 | [C答案](/BasicLevel/C语言/1046.c) | | | \ |
 | [1047](/BasicLevel/真题/1047.md) | 编程团体赛 | [C答案](/BasicLevel/C语言/1047.c) | | | \ |
 | [1048](/BasicLevel/真题/1048.md) | 数字加密 | [C答案](/BasicLevel/C语言/1048.c) | | | 加密的正整数更长时 |

@@ -1,7 +1,4 @@
-﻿/* 
- * 只统计 英文字母，不区分大小写
- * 看能否优化
- */
+﻿/* 只统计英文字母，不区分大小写 */
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
@@ -13,7 +10,7 @@ int main() {
 	for (int i = 0; i < strlen(str); i++) {//遍历字符串 
 		if (isalpha(str[i])) {//如果是英文字母 
 			str[i] = tolower(str[i]);
-			arr[str[i]- 'a']++;
+			arr[str[i]-'a']++;
 		} 
 	} 
 	int maxcnt = 0;//出现频率最高的那个英文字母及其出现次数

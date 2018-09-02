@@ -1,48 +1,38 @@
 ﻿/*
- * 可能的主元：前面的最大值比自己小；后面的最小值比自己大
- * 将上述特征通过创建两个新数组来表现
+ * 1. 可能的主元：前面的最大值比自己小；后面的最小值比自己大
+ * 2. 解题关键：将原数组 与 升序排序后的数组 比较
+ * 		相同下标的元素仍然相同，且左边最大值比自身小 即可能为主元 
  */
 #include <stdio.h>
+#include <stdlib.h>
 
+int cmp(const void *a, const void *b) {
+	return *(int *)a > *(int *)b;//升序 
+} 
 int main() {
-    int N, cnt = 0;
+    int N;//元素数量
     scanf("%d", &N);
-    int arr[N], lmax[N], rmin[N];
+    int arr[N], rank[N], c[N];//读入的数组，排序后的数组，主元数组 
     for(int i = 0; i < N; i++) {
     	scanf("%d", &arr[i]);
+    	rank[i] = arr[i];
 	}
-	lmax[0] = arr[0];
-	rmin[N-1] = arr[N-1];
-    for(int i = 1; i < N; i++) {//找出在元素 左边最大的元素 
-    	if (arr[i] > lmax[i-1]) {//如果当前元素>左边最大的元素 ,令当前元素左侧最大的元素为自身 
-    		lmax[i] = arr[i];
-		} else {
-			lmax[i] = lmax[i-1];
+	qsort(rank, N, sizeof(int), cmp);//升序排序 
+	int cnt = 0, max = 0;//主元个数，左边最大的值 
+	for (int i = 0; i < N; i++) {
+		if(arr[i] == rank[i] && arr[i] > max) {//排序后，相同下标的元素仍然相同，且左边最大值比自身小 
+        	c[cnt++] = arr[i];//记录该 可能的主元 
+		}
+        if (arr[i] > max) {//更新左边最大值 
+        	max = arr[i];
 		}
 	}
-    for(int i = N - 2; i >= 0; i--) {//找出在元素 右边最小的元素 
-    	if (arr[i] < rmin[i+1]) {//如果当前元素 < 右边最小的元素 ,令当前元素右侧最大的元素为自身 
-    		rmin[i] = arr[i];
-		} else {
-			rmin[i] = rmin[i+1];
-		}
-	}
-    for(int i = 0; i < N; i++) {//统计可能是主元的数量 
-        if(arr[i] == lmax[i] && arr[i] == rmin[i]) {//如果左侧最大的元素 和 右侧最小的元素 都是自身，就可能是主元 
-        	cnt++;
-		} else {
-			arr[i] = 0;
-		}
-    }
     printf("%d\n", cnt);
-    for(int i = 0; i < N && cnt > 0; i++) {
-    	if(arr[i] != 0) {//可能是主元 
-			printf("%d", arr[i]);
-			if (cnt > 1) {
-    			printf(" ");
-			}
-    		cnt--;
+    for(int i = 0; i < cnt; i++) {
+    	if (i != 0) {
+    		printf(" ");
 		}
+		printf("%d", c[i]);
 	}
     printf("\n");
     return 0;
