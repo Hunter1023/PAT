@@ -58,12 +58,12 @@
 | [1045](/BasicLevel/真题/1045.md) | 快速排序 | [C答案](/BasicLevel/C语言/1045.c) | | | ![Basic1045](/images/Basic1045.jpg) |
 | [1046](/BasicLevel/真题/1046.md) | 划拳 | [C答案](/BasicLevel/C语言/1046.c) | | | \ |
 | [1047](/BasicLevel/真题/1047.md) | 编程团体赛 | [C答案](/BasicLevel/C语言/1047.c) | | | \ |
-| [1048](/BasicLevel/真题/1048.md) | 数字加密 | [C答案](/BasicLevel/C语言/1048.c) | | | 加密的正整数更长时 |
+| [1048](/BasicLevel/真题/1048.md) | 数字加密 | [C答案](/BasicLevel/C语言/1048.c) | | | **高位补0使数字位数一致** |
 | [1049](/BasicLevel/真题/1049.md) | 数列的片段和 | [C答案](/BasicLevel/C语言/1049.c) | | | **整型大小溢出** |
-| [1050](/BasicLevel/真题/1050.md) | 螺旋矩阵 | [C答案](/BasicLevel/C语言/1050.c) | | | **重要** |
+| [1050](/BasicLevel/真题/1050.md) | 螺旋矩阵 | [C答案](/BasicLevel/C语言/1050.c) | | | ![Basic1050](/images/Basic1050.jpg) |
 | [1051](/BasicLevel/真题/1051.md) | 复数乘法 | [C答案](/BasicLevel/C语言/1051.c) | | | 格式化输出的保留小数 |
-| [1052](/BasicLevel/真题/1052.md) | 卖个萌 | [C答案](/BasicLevel/C语言/1052.c) | | | 读取和统计字符的方式 |
-| [1053](/BasicLevel/真题/1053.md) | 住房空置率 | [C答案](/BasicLevel/C语言/1053.c) | | | 整数和浮点数 |
+| [1052](/BasicLevel/真题/1052.md) | 卖个萌 | [C答案](/BasicLevel/C语言/1052.c) | | | **正则表达式读取字符** |
+| [1053](/BasicLevel/真题/1053.md) | 住房空置率 | [C答案](/BasicLevel/C语言/1053.c) | | | 注意整数和浮点数的转换 |
 | [1054](/BasicLevel/真题/1054.md) | 求平均值 | [C答案](/BasicLevel/C语言/1054.c) | | | **遇到这种题目怎么办？没错，放弃PAT！** |
 | [1055](/BasicLevel/真题/1055.md) | 集体照 | [C答案](/BasicLevel/C语言/1055.c) | | | **没错，坚持放弃PAT！** |
 | [1056](/BasicLevel/真题/1056.md) | 组合数的和 | [C答案](/BasicLevel/C语言/1056.c) | | | \ |

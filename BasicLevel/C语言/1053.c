@@ -17,7 +17,7 @@ int main(){
 			}
 		} 
 		if (D_cnt * 2 > day && day > D) {//超过一半的日子用电量低于阈值 且 观察期超过给定阈值
-				isvac++;
+			isvac++;
 		} else if (D_cnt * 2 > day) {//超过一半的日子用电量低于阈值
 			mayvac++;
 		}
