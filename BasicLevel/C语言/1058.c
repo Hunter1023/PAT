@@ -1,5 +1,4 @@
-﻿/* 能否进一步优化 */
-#include <stdio.h>
+﻿#include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
 #include <ctype.h>
@@ -28,9 +27,8 @@ int main(){
 		q[i].right[j] = '\0';
 	}
 	for (int i = 0; i < N; i++) {//读入解答 
-		int grades = 0, j;//学生得分
+		int grades = 0, cnt, j;//学生得分，选项个数
 		for (j = 1; j < M + 1; j++) {
-			int cnt;//选项的个数 
 			scanf("(%d", &cnt);
 			int k = 0;
 			char c, choose[6];
@@ -49,7 +47,7 @@ int main(){
 			if (max_error < q[j].wrong) {
 				max_error = q[j].wrong;
 			}
-			getchar();
+			getchar();//读入回车或空格
 		}
 		printf("%d\n", grades);
 	}

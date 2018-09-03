@@ -1,11 +1,9 @@
-﻿/* 待优化 */
-#include <stdio.h>
+﻿#include <stdio.h>
 #include <stdlib.h>
 
 int main() {
-	int N, M;//伴侣的对数，派对总人数 
+	int N, M, cp[100000];//伴侣的对数，派对总人数，记录情侣情况
 	scanf("%d", &N);
-	int cp[100000];//记录情侣情况
 	for(int i = 0; i < 100000; i++) {
 		cp[i] = -1;
 	}

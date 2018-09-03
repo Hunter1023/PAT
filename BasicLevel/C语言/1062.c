@@ -1,7 +1,6 @@
 ﻿/*
  * 输入的两个正分数，没有表明哪个大哪个小，需要判断
  * 辗转相除法获取最大公约数
- * 待简化
  */
 #include <stdio.h>
 
@@ -16,7 +15,7 @@ int gcd(int a, int b) {//最大公约数
 int main(){
 	int N1, M1, N2, M2, K;
 	scanf("%d/%d %d/%d %d", &N1, &M1, &N2, &M2, &K);
-	if (N1* M2 > N2 * M1) {
+	if (N1 * M2 > N2 * M1) {
 		int tempN = N1, tempM = M1;
 		N1 = N2;
 		N2 = tempN;
@@ -25,8 +24,8 @@ int main(){
 	}
 	int isfirst = 1;
 	for (int i = 1; i < K; i++) {
-		if (gcd(i, K) == 1 && (i*M1 > N1*K)) {
-			if (i*M2 < N2*K) {
+		if (gcd(i, K) == 1 && (i * M1 > N1 * K)) {
+			if (i * M2 < N2 * K) {
 				if (!isfirst) {
 					printf(" ");
 				}
