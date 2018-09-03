@@ -64,8 +64,8 @@
 | [1051](/BasicLevel/真题/1051.md) | 复数乘法 | [C答案](/BasicLevel/C语言/1051.c) | | | 格式化输出的保留小数 |
 | [1052](/BasicLevel/真题/1052.md) | 卖个萌 | [C答案](/BasicLevel/C语言/1052.c) | | | **正则表达式读取字符** |
 | [1053](/BasicLevel/真题/1053.md) | 住房空置率 | [C答案](/BasicLevel/C语言/1053.c) | | | 注意整数和浮点数的转换 |
-| [1054](/BasicLevel/真题/1054.md) | 求平均值 | [C答案](/BasicLevel/C语言/1054.c) | | | **遇到这种题目怎么办？没错，放弃PAT！** |
-| [1055](/BasicLevel/真题/1055.md) | 集体照 | [C答案](/BasicLevel/C语言/1055.c) | | | **没错，坚持放弃PAT！** |
+| [1054](/BasicLevel/真题/1054.md) | 求平均值 | [C答案](/BasicLevel/C语言/1054.c) | | | ![Basic1054](/images/Basic1054.jpg) |
+| [1055](/BasicLevel/真题/1055.md) | 集体照 | [C答案](/BasicLevel/C语言/1055.c) | | | ![Basic1055](/images/Basic1055.jpg) |
 | [1056](/BasicLevel/真题/1056.md) | 组合数的和 | [C答案](/BasicLevel/C语言/1056.c) | | | \ |
 | [1057](/BasicLevel/真题/1057.md) | 数零壹 | [C答案](/BasicLevel/C语言/1057.c) | | | \ |
 | [1058](/BasicLevel/真题/1058.md) | 选择题 | [C答案](/BasicLevel/C语言/1058.c) | | | **输入的读取** |
