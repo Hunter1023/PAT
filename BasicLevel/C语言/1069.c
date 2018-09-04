@@ -1,5 +1,4 @@
-﻿/* 看能否再优化 */
-#include <stdio.h>
+﻿#include <stdio.h>
 #include <string.h>
 
 int isGot(int *isWin, int length, int j, char name[][21]) {
