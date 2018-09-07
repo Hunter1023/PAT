@@ -13,7 +13,7 @@ typedef struct {
 int main() {
     int firstAddr, N, K, minus_cnt = 0, cnt_K = 0;//第一个节点的地址，节点总数，正整数K ,负数的数量 
 	scanf("%d %d %d", &firstAddr, &N, &K); 
-    Node nodes[100001];//下标为节点地址 
+    Node nodes[100000];//下标为节点地址 
     int addr; 
     for (int i = 0; i < N; i++) {
     	scanf("%d ", &addr);

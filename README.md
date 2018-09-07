@@ -89,7 +89,7 @@
 | [1076](/BasicLevel/真题/1076.md) | Wifi密码 | [C答案](/BasicLevel/C语言/1076.c) | | | 选项输入顺序随机 |
 | [1077](/BasicLevel/真题/1077.md) | 互评成绩计算 | [C答案](/BasicLevel/C语言/1077.c) | | | 去掉无效评分、最高分和最低分 |
 | [1078](/BasicLevel/真题/1078.md) | 字符串压缩与解压 | [C答案](/BasicLevel/C语言/1078.c) | | | \ |
-| [1079](/BasicLevel/真题/1079.md) | 延迟的回文数 | [C答案](/BasicLevel/C语言/1079.c) | | | **重要** |
+| [1079](/BasicLevel/真题/1079.md) | 延迟的回文数 | [C答案](/BasicLevel/C语言/1079.c) | | | **回文数的本质** |
 | [1080](/BasicLevel/真题/1080.md) | MOOC期终成绩 | [C答案](/BasicLevel/C语言/1080.c) | | | **时间复杂度** |
 | [1081](/BasicLevel/真题/1081.md) | 检查密码 | [C答案](/BasicLevel/C语言/1081.c) | | | 输入内容可能含有空格 |
 | [1082](/BasicLevel/真题/1082.md) | 射击比赛 | [C答案](/BasicLevel/C语言/1082.c) | | | \ |

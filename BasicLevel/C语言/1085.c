@@ -1,4 +1,4 @@
-﻿/* 加权总分是  最后的和取整，之前运算的小数需要保留*/
+﻿/* 加权总分是  最后的和取整，之前运算的小数需要保留 */
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
