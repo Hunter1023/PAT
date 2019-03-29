@@ -15,7 +15,7 @@ int main() {
         c = getchar();
         if(!strcmp(user, "#") && c == '\n') {//输入的是 #，结束 
             break;
-        } else if(!strcmp(correct, user) && c == '\n') {//输入的是正确答案，结束 
+        } else if(!strcmp(password, user) && c == '\n') {//输入的是正确答案，结束 
             printf("Welcome in\n");
             break;
         } else {//错误答案
