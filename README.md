@@ -11,7 +11,7 @@
 
 | 标号 | 标题 | C语言 |    C++  |  Java  | 解题关键 |
 | ---- | ---- | :----: | :----: | :----: | ---- |
-| [1001](/BasicLevel/真题/1001.md) | 害死人不偿命的(3n+1)猜想 | [C答案](/BasicLevel/C语言/1001.c) | | [Java答案](/BasicLevel/Java/1001.java) | \ |
+| [1001](/BasicLevel/真题/1001.md) | 害死人不偿命的(3n+1)猜想 | [C答案](/BasicLevel/C语言/1001.c) | [C++答案](/BasicLevel/C++/1001.cpp) | [Java答案](/BasicLevel/Java/1001.java) | \ |
 | [1002](/BasicLevel/真题/1002.md) | 写出这个数 | [C答案](/BasicLevel/C语言/1002.c) | | [Java答案](/BasicLevel/Java/1002.java) | 各位数字之和的范围；**正序输出**每一位数字的拼音 |
 | [1003](/BasicLevel/真题/1003.md) | 我要通过！ | [C答案](/BasicLevel/C语言/1003.c) | | [Java答案](/BasicLevel/Java/1003.java) | 正确归纳答案正确的条件 |
 | [1004](/BasicLevel/真题/1004.md) | 成绩排名 | [C答案](/BasicLevel/C语言/1004.c) | | [Java答案](/BasicLevel/Java/1004.java) | \ |
@@ -104,4 +104,5 @@
 
 然而真题中就是有大规模数据的案例，那么，可以采用什么方式代替Scanner读取控制台的输入？  
 方法之一是采用`BufferedReader`，**亲测部分试题有效**。  
+
 >参考网站：[Scanner究竟有多慢](https://www.cpe.ku.ac.th/~jim/java-io.html)
