@@ -1,12 +1,12 @@
-#include <iostream> 
+ï»¿#include <iostream> 
 using std::cin;
 using std::cout;
 
 int main() {
-	int num, cnt = 0; //¼ÇÂ¼ÐèÒªµÄ²½Êý
+	int num, cnt = 0; //è®°å½•éœ€è¦çš„æ­¥æ•°
 	cin >> num;
 	while (num != 1) {
-		if (num % 2 != 0) {//ÊÇÆæÊý
+		if (num % 2 != 0) {//æ˜¯å¥‡æ•°
 			num = 3*num + 1; 
 		}
 		num /= 2;
