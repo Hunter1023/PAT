@@ -1,10 +1,10 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
 int main() {
 	int A, B, C;
 	scanf("%d %d", &A, &B);
 	C = A * B;
-	while (!(C % 10)) {//����λΪ0��ɾȥ
+	while (!(C % 10)) {//若个位为0，删去
 		C /= 10;
 	}
 	while (C) {
