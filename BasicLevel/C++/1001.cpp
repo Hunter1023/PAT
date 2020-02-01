@@ -1,17 +1,15 @@
-﻿#include <iostream> 
-using std::cin;
-using std::cout;
+﻿#include <cstdio> 
 
 int main() {
-	int num, cnt = 0; //记录需要的步数
-	cin >> num;
-	while (num != 1) {
-		if (num % 2 != 0) {//是奇数
-			num = 3*num + 1; 
+	int n, cnt = 0; //给定的数，需要的步数 
+	scanf("%d", &n);
+	while (n != 1) {
+		if (n % 2 != 0) { //是奇数
+			n = 3*n + 1; 
 		}
-		num /= 2;
+		n /= 2;
 		cnt++;
 	} 
-	cout << cnt;
+	printf("%d", cnt);
 	return 0;
 }

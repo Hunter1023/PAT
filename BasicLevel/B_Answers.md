@@ -35,7 +35,7 @@
 | 1029 旧键盘                   | - [C](/BasicLevel/C/1029.c)                                  | 坏键的判断方式                                               |
 | 1030 完美数列                 | - [C](/BasicLevel/C/1030.c)                                  | 高效地判断完美数列                                           |
 | 1031 查验身份证               | - [C](/BasicLevel/C/1031.c)                                  | \                                                            |
-| 1032 挖掘机技术哪家强         | - [C](/BasicLevel/C/1032.c)                                  | 统计各学校总分的方式                                         |
+| 1032 挖掘机技术哪家强         | - [C](/BasicLevel/C/1032.c)<br />- [C++](/BasicLevel/C++/1032.cpp) | 统计各学校总分的方式                                         |
 | 1033 旧键盘打字               | - [C](/BasicLevel/C/1033.c)                                  | 运行超时                                                     |
 | 1034 有理数四则运算           | - [C](/BasicLevel/C/1034.c)                                  | **合理解耦**                                                 |
 | 1035 插入与归并               | - [C](/BasicLevel/C/1035.c)                                  | ![Basic1035](/images/Basic1035.jpg)                          |
