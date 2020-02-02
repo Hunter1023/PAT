@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 int main() {
-	int N, id, grades; //参赛人数
+	int N, id, grades; //参数人数, 学校编号, 成绩
 	scanf("%d", &N);
 	int school[N+1];
-	for (int i = 0; i <= N; i++) {//初始化 
+	for (int i = 0; i <= N; i++) {//数组初始化
 		school[i] = 0;
 	}
 	for (int i = 0; i < N; i++) {
