@@ -15,7 +15,7 @@
 | 1009 说反话                   | - [C](/BasicLevel/C/1009.c)<br />- [Java](/BasicLevel/Java/1009.java) | **句子颠倒，单词本身不颠倒**                                 |
 | 1010 一元多项式求导           | - [C](/BasicLevel/C/1010.c)<br />- [Java](/BasicLevel/Java/1010.java) | 指数为0的项的处理                                            |
 | 1011 A+B和C                   | - [C](/BasicLevel/C/1011.c)<br />- [Java](/BasicLevel/Java/1011.java) | 输入的数值范围                                               |
-| 1012 数字分类                 | - [C](/BasicLevel/C/1012.c)<br />- [Java](/BasicLevel/Java/1012.java) | 有条不紊地整理                                               |
+| 1012 数字分类                 | - [C](/BasicLevel/C/1012.c)<br />- [C++](/BasicLevel/C++/1012.cpp)<br />- [Java](/BasicLevel/Java/1012.java) | 有条不紊地整理                                               |
 | 1013 数素数                   | - [C](/BasicLevel/C/1013.c)<br />- [Java](/BasicLevel/Java/1013.java) | \                                                            |
 | 1014 福尔摩斯的约会           | - [C](/BasicLevel/C/1014.c)<br />- [Java](/BasicLevel/Java/1014.java) | **正确归纳**解码方式                                         |
 | 1015 德才论                   | - [C](/BasicLevel/C/1015.c)                                  | 成绩的分类                                                   |
