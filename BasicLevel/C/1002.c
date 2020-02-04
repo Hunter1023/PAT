@@ -2,8 +2,8 @@
 #include <string.h>
 
 int main() {
-	char num[101];//输入的数字 < 10^{100}，即数字的位数 < 101
-	scanf("%s", num);
+	char num[101]; //输入的数字 < 10^{100}，即数字的位数 < 101
+	scanf("%s", num); 
 	int sum = 0, len = strlen(num); //各位数字之和(易知<= 900)；数字的位数
 	for (int i = 0; i < len; i++) {
 		sum += num[i] - '0';

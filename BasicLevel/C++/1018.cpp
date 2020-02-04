@@ -1,4 +1,4 @@
-﻿#include <stdio.h>
+﻿#include <cstdio>
 
 int main() {
 	int N, Awin = 0, Bwin = 0, // 交锋次数，A和B赢的次数
@@ -6,7 +6,7 @@ int main() {
 	char A, B, str[4] = "CJB";
 	scanf("%d", &N);
 	for (int i = 0; i < N; i++) {
-		getchar(); //读取scanf留在缓冲区的换行符  
+		getchar(); //读取scanf留在缓冲区的换行符 
 		scanf("%c %c", &A, &B);
 		if (A == 'C' && B == 'J') { //A锤子赢
 			Awin++;

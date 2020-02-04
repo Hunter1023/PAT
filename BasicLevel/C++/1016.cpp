@@ -1,4 +1,4 @@
-﻿#include <stdio.h>
+#include <cstdio>
 
 int main() {
 	long long num[2], P[2] = {0};
@@ -12,6 +12,6 @@ int main() {
 			num[i] /= 10;
 		}
 	}
-	printf("%lld\n", P[0] + P[1]); 
+	printf("%lld\n", P[0] + P[1]);
 	return 0; 
 }
