@@ -1,5 +1,4 @@
-﻿/*  四舍五入用 round() */
-#include <stdio.h>
+﻿#include <stdio.h>
 #include <math.h>
 
 int main() {
@@ -8,8 +7,8 @@ int main() {
 	scanf("%d %c", &N, &C);
 	int row = (int)round(N / 2.0); //行数 
 	for (int i = 0; i < row; i++) {
-		for (int j = 0; j < N; j++) {
-			if (i == 0 || i == row - 1 || j == 0 || j == N - 1) {//第一行，最后一行，每行的头尾，输出字符 
+		for (int j = 0; j < N; j++) { //第一行，最后一行
+			if (i == 0 || i == row - 1 || j == 0 || j == N - 1) {//每行的头尾
 				printf("%c", C); 
 			} else {
 				printf(" ");

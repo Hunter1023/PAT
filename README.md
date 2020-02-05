@@ -1,11 +1,10 @@
-## PAT(Programming Ability Test)  
-
 ## 目录
 1. [编程语言的选择](https://github.com/Hunter1023/PAT-Practice#编程语言的选择)
 2. [如何高效地做题](https://github.com/Hunter1023/PAT-Practice#如何高效地做题)
 3. [C/C++解题干货](https://hunter1023.github.io/2020/02/01/C-C-%E8%A7%A3%E9%A2%98%E5%B9%B2%E8%B4%A7/)
-4. [乙级答案](/BasicLevel/B_Answers.md)
-5. [甲级答案](/AdvancedLevel/A_Answers.md)
+4. [PAT题目分类](/sortingOfQuestions.md)
+5. [乙级答案](/BasicLevel/B_Answers.md)
+6. [甲级答案](/AdvancedLevel/A_Answers.md)
 ---
 
 ## 编程语言的选择

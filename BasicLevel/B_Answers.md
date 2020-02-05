@@ -39,9 +39,9 @@
 | 1033 旧键盘打字               | [C](/BasicLevel/C/1033.c) |                                 |                                    | 运行超时                                                     |
 | 1034 有理数四则运算           | [C](/BasicLevel/C/1034.c) |                                 |                                    | **合理解耦**                                                 |
 | 1035 插入与归并               | [C](/BasicLevel/C/1035.c) |                                 |                                    | ![Basic1035](/images/Basic1035.jpg)                          |
-| 1036 跟奥巴马一起编程         | [C](/BasicLevel/C/1036.c) |                                 |                                    | 四舍五入                                                     |
+| 1036 跟奥巴马一起编程         | [C](/BasicLevel/C/1036.c) | [C++](/BasicLevel/C++/1036.cpp) |                                    | \                                                            |
 | 1037 在霍格沃茨找零钱         | [C](/BasicLevel/C/1037.c) |                                 |                                    | 进制换算                                                     |
-| 1038 统计同成绩学生           | [C](/BasicLevel/C/1038.c) |                                 |                                    | 找准解题角度                                                 |
+| 1038 统计同成绩学生           | [C](/BasicLevel/C/1038.c) | [C++](/BasicLevel/C++/1038.cpp) |                                    | 找准解题角度                                                 |
 | 1039 到底买不买               | [C](/BasicLevel/C/1039.c) |                                 |                                    | **对珠子的判断方式**                                         |
 | 1040 有几个PAT                | [C](/BasicLevel/C/1040.c) |                                 |                                    | **A前有P，后有T才能形成PAT**                                 |
 | 1041 考试座位号               | [C](/BasicLevel/C/1041.c) |                                 |                                    | \                                                            |
