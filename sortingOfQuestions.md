@@ -4,21 +4,53 @@
 
 
 
-<table>
-   <tr>
-      <td>分类</td>
-      <td></td>
-      <td>题目</td>
-   </tr>
-   <tr>
-      <td>C/C++快速入门</td>
-      <td>数组</td>
-      <td>[杨辉三角](https://blog.csdn.net/weixin_39345384/article/details/104146906)</td>
-   </tr>
-   <tr>
-      <td></td>
-      <td></td>
-      <td>杨辉三角</td>
-   </tr>
-</table>
+## C/C++快速入门
+
+### 数组
+
+- [codeup 杨辉三角](https://blog.csdn.net/weixin_39345384/article/details/104146906)
+
+---
+
+### 指针
+
+- [codeup C语言10.16](https://blog.csdn.net/weixin_39345384/article/details/104151149)
+
+---
+
+### 结构体的使用
+
+- [codeup C语言11.1](https://blog.csdn.net/weixin_39345384/article/details/104156997)
+- [codeup C语言11.2](https://blog.csdn.net/weixin_39345384/article/details/104158080)
+- [codeup C语言11.4](https://blog.csdn.net/weixin_39345384/article/details/104158719)
+
+---
+
+## 入门模拟
+
+### 简单模拟
+
+---
+
+### 查找元素
+
+---
+
+### 图形输出
+
+---
+
+### 日期处理
+
+---
+
+### 进制转换
+
+---
+
+### 字符串处理
+
+---
+
+## 算法初步
 
