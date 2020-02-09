@@ -5,15 +5,15 @@
 | 题目                          | 答案                      | 答案                            | 答案                               | 解题关键                                                     |
 | ----------------------------- | :------------------------ | ------------------------------- | ---------------------------------- | ------------------------------------------------------------ |
 | 1001 害死人不偿命的(3n+1)猜想 | [C](/BasicLevel/C/1001.c) | [C++](/BasicLevel/C++/1001.cpp) | [Java](/BasicLevel/Java/1001.java) | \                                                            |
-| 1002 写出这个数               | [C](/BasicLevel/C/1002.c) |                                 | [Java](/BasicLevel/Java/1002.java) | 各位数字之和的范围；<br />**正序输出**每一位数字的拼音       |
+| 1002 写出这个数               | [C](/BasicLevel/C/1002.c) |                                 | [Java](/BasicLevel/Java/1002.java) | 1. 各位数字之和的范围；<br />2. **正序输出**每一位数字的拼音 |
 | 1003 我要通过！               | [C](/BasicLevel/C/1003.c) |                                 | [Java](/BasicLevel/Java/1003.java) | 正确归纳答案正确的条件                                       |
-| 1004 成绩排名                 | [C](/BasicLevel/C/1004.c) |                                 | [Java](/BasicLevel/Java/1004.java) | \                                                            |
+| 1004 成绩排名                 | [C](/BasicLevel/C/1004.c) | [C++](/BasicLevel/C++/1004.cpp) | [Java](/BasicLevel/Java/1004.java) | \                                                            |
 | 1005 继续(3n+1)猜想           | [C](/BasicLevel/C/1005.c) |                                 | [Java](/BasicLevel/Java/1005.java) | 筛选关键数字的方式                                           |
 | 1006 换个格式输出整数         | [C](/BasicLevel/C/1006.c) |                                 | [Java](/BasicLevel/Java/1006.java) | \                                                            |
-| 1007 素数对猜想               | [C](/BasicLevel/C/1007.c) |                                 | [Java](/BasicLevel/Java/1007.java) | 素数对的筛选方式；<br />素数的判断方法                       |
+| 1007 素数对猜想               | [C](/BasicLevel/C/1007.c) |                                 | [Java](/BasicLevel/Java/1007.java) | 1. 素数对的筛选方式；<br />2. 素数的判断方法                 |
 | 1008 数组元素循环右移问题     | [C](/BasicLevel/C/1008.c) |                                 | [Java](/BasicLevel/Java/1008.java) | **元素循环右移的高效移动方式**                               |
 | 1009 说反话                   | [C](/BasicLevel/C/1009.c) |                                 | [Java](/BasicLevel/Java/1009.java) | **句子颠倒，单词本身不颠倒**                                 |
-| 1010 一元多项式求导           | [C](/BasicLevel/C/1010.c) |                                 | [Java](/BasicLevel/Java/1010.java) | 指数为0的项的处理                                            |
+| 1010 一元多项式求导           | [C](/BasicLevel/C/1010.c) | [C++](/BasicLevel/C++/1010.cpp) | [Java](/BasicLevel/Java/1010.java) | \                                                            |
 | 1011 A+B和C                   | [C](/BasicLevel/C/1011.c) | [C++](/BasicLevel/C++/1011.cpp) | [Java](/BasicLevel/Java/1011.java) | \                                                            |
 | 1012 数字分类                 | [C](/BasicLevel/C/1012.c) | [C++](/BasicLevel/C++/1012.cpp) | [Java](/BasicLevel/Java/1012.java) | 有条不紊地整理                                               |
 | 1013 数素数                   | [C](/BasicLevel/C/1013.c) |                                 | [Java](/BasicLevel/Java/1013.java) | \                                                            |
@@ -29,9 +29,9 @@
 | 1023 组个最小数               | [C](/BasicLevel/C/1023.c) |                                 |                                    | \                                                            |
 | 1024 科学计数法               | [C](/BasicLevel/C/1024.c) |                                 |                                    | **小数点的输出**                                             |
 | 1025 反转链表                 | [C](/BasicLevel/C/1025.c) |                                 |                                    | **可能存在无效节点**                                         |
-| 1026 程序运行时间             | [C](/BasicLevel/C/1026.c) |                                 |                                    | 四舍五入                                                     |
+| 1026 程序运行时间             | [C](/BasicLevel/C/1026.c) | [C++](/BasicLevel/C++/1026.cpp) |                                    | \                                                            |
 | 1027 打印沙漏                 | [C](/BasicLevel/C/1027.c) |                                 |                                    | 沙漏高度和符号数量的关系                                     |
-| 1028 人口普查                 | [C](/BasicLevel/C/1028.c) |                                 |                                    | **不合理年龄的判断方式**                                     |
+| 1028 人口普查                 | [C](/BasicLevel/C/1028.c) | [C++](/BasicLevel/C++/1028.cpp) |                                    | **1. 不合理年龄的判断方式**<br />**2. 需要考虑全不合理的情况** |
 | 1029 旧键盘                   | [C](/BasicLevel/C/1029.c) |                                 |                                    | 坏键的判断方式                                               |
 | 1030 完美数列                 | [C](/BasicLevel/C/1030.c) |                                 |                                    | 高效地判断完美数列                                           |
 | 1031 查验身份证               | [C](/BasicLevel/C/1031.c) |                                 |                                    | \                                                            |
@@ -44,7 +44,7 @@
 | 1038 统计同成绩学生           | [C](/BasicLevel/C/1038.c) | [C++](/BasicLevel/C++/1038.cpp) |                                    | 找准解题角度                                                 |
 | 1039 到底买不买               | [C](/BasicLevel/C/1039.c) |                                 |                                    | **对珠子的判断方式**                                         |
 | 1040 有几个PAT                | [C](/BasicLevel/C/1040.c) |                                 |                                    | **A前有P，后有T才能形成PAT**                                 |
-| 1041 考试座位号               | [C](/BasicLevel/C/1041.c) |                                 |                                    | \                                                            |
+| 1041 考试座位号               | [C](/BasicLevel/C/1041.c) | [C++](/BasicLevel/C++/1038.cpp) |                                    | \                                                            |
 | 1042 字符统计                 | [C](/BasicLevel/C/1042.c) |                                 |                                    | 确认好筛选条件                                               |
 | 1043 输出PATest               | [C](/BasicLevel/C/1043.c) |                                 |                                    | \                                                            |
 | 1044 火星数字                 | [C](/BasicLevel/C/1044.c) |                                 |                                    | 火星文表达的特点                                             |
@@ -91,11 +91,11 @@
 | 1085 PAT单位排行              | [C](/BasicLevel/C/1085.c) |                                 |                                    | \                                                            |
 | 1086 就不告诉你               | [C](/BasicLevel/C/1086.c) |                                 |                                    | 倒着输出的**第一个数必须非零**                               |
 | 1087 有多少不同的值           | [C](/BasicLevel/C/1087.c) |                                 |                                    | 算式 ⌊n/2⌋+⌊n/3⌋+⌊n/5⌋**单调不减**                           |
-| 1088 三人行                   | [C](/BasicLevel/C/1088.c) |                                 |                                    | 丙的成绩允许为小数；<br />绝对值函数：int abs(int i)         |
-| 1089 狼人杀-简单版            | [C](/BasicLevel/C/1089.c) |                                 |                                    | 通过枚举法**假设狼人**<br />需要**至少能记录3个说谎者**的数组，以排除错误假设 |
+| 1088 三人行                   | [C](/BasicLevel/C/1088.c) |                                 |                                    | 1. 丙的成绩允许为小数；<br />2. 绝对值函数：int abs(int i)   |
+| 1089 狼人杀-简单版            | [C](/BasicLevel/C/1089.c) |                                 |                                    | 1. 通过枚举法**假设狼人**<br />2. 需要**至少能记录3个说谎者**的数组，以排除错误假设 |
 | 1090 危险品装箱               | [C](/BasicLevel/C/1090.c) |                                 |                                    | **遍历不相容物品清单**，查找货品清单中是否存在不相容物品     |
 | 1091 N-自守数                 | [C](/BasicLevel/C/1091.c) |                                 |                                    | 确定K的位数                                                  |
 | 1092 最好吃的月饼             | [C](/BasicLevel/C/1092.c) |                                 |                                    |                                                              |
-| 1093 字符串A+B                | [C](/BasicLevel/C/1093.c) |                                 |                                    | 字符转换为对应码值<br />getchar() / putchar 输入输出字符     |
-| 1094 谷歌的招聘               | [C](/BasicLevel/C/1094.c) |                                 |                                    | 复制字符串前n位函数 strncpy<br />字符串转为int整数函数 atoi(str)<br />存储K位数的字符串必须初始化 |
-| 1095 解码PAT准考证            | [C](/BasicLevel/C/1095.c) |                                 |                                    | **从字符串读取格式化输入 sscanf**<br />类型3输出的**简便**方法 |
+| 1093 字符串A+B                | [C](/BasicLevel/C/1093.c) |                                 |                                    | 1. 字符转换为对应码值<br />2. getchar() / putchar 输入输出字符 |
+| 1094 谷歌的招聘               | [C](/BasicLevel/C/1094.c) |                                 |                                    | 1. 复制字符串前n位函数 strncpy<br />2. 字符串转为int整数函数 atoi(str)<br />3. 存储K位数的字符串必须初始化 |
+| 1095 解码PAT准考证            | [C](/BasicLevel/C/1095.c) |                                 |                                    | **1. 从字符串读取格式化输入 sscanf**<br />2. 类型3输出的**简便**方法 |

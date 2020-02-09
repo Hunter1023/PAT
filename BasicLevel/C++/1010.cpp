@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <cstdio>
 
 int main() {
     int coe, exp, firstFlag = 1; //系数、指数 

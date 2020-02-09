@@ -5,25 +5,25 @@ int main() {
 		cntA[3] = {0}, cntB[3] = {0}; //按“CJB”顺序，记录各手势获胜的次数 
 	char A, B, str[4] = "CJB";
 	scanf("%d", &N);
-	for (int i = 0; i < N; i++) {
+	for(int i = 0; i < N; i++) {
 		getchar(); //读取scanf留在缓冲区的换行符  
 		scanf("%c %c", &A, &B);
-		if (A == 'C' && B == 'J') { //A锤子赢
+		if(A == 'C' && B == 'J') { //A锤子赢
 			Awin++;
 			cntA[0]++;
-		} else if (A == 'J' && B == 'B'){ //A剪刀赢
+		} else if(A == 'J' && B == 'B') { //A剪刀赢
 			Awin++;
 			cntA[1]++;
-		} else if (A == 'B' && B == 'C') { //A布赢
+		} else if(A == 'B' && B == 'C') { //A布赢
 			Awin++;
 			cntA[2]++;
-		} else if (B == 'C' && A == 'J') { //B锤子赢
+		} else if(B == 'C' && A == 'J') { //B锤子赢
 			Bwin++;
 			cntB[0]++;
-		} else if (B == 'J' && A == 'B') { //B剪刀赢
+		} else if(B == 'J' && A == 'B') { //B剪刀赢
 			Bwin++;
 			cntB[1]++;
-		} else if (B == 'B' && A == 'C') { //B布赢
+		} else if(B == 'B' && A == 'C') { //B布赢
 			Bwin++;
 			cntB[2]++;
 		} 

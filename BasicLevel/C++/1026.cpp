@@ -1,5 +1,5 @@
-﻿#include <stdio.h>
-#include <math.h>
+﻿#include <cstdio>
+#include <cmath>
 #define CLK_TCK 100
 
 int main() {

@@ -1,4 +1,4 @@
-﻿#include <stdio.h>
+﻿#include <cstdio>
 
 typedef struct {
 	char name[11];
