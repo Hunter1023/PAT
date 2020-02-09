@@ -9,12 +9,12 @@
 |                                     |                                    |                                                              |
 |                                     |                                    |                                                              |
 |                                     |                                    |                                                              |
-|                                     |                                    |                                                              |
+| **1006** **Sign In and Sign Out**   | [C++](/AdvancedLevel/C++/1006.cpp) | 方法类似 乙级1028 人口普查                                   |
 |                                     |                                    |                                                              |
 |                                     |                                    |                                                              |
 | **1009** **Product of Polynomials** | [C++](/AdvancedLevel/C++/1009.cpp) | 第二个多项式可边读边处理                                     |
 |                                     |                                    |                                                              |
-| **1011** **World Cup Betting**      |                                    |                                                              |
+| **1011** **World Cup Betting**      | [C++](/AdvancedLevel/C++/1011.cpp) | \                                                            |
 |                                     |                                    |                                                              |
 |                                     |                                    |                                                              |
 |                                     |                                    |                                                              |
@@ -44,12 +44,12 @@
 |                                     |                                    |                                                              |
 |                                     |                                    |                                                              |
 |                                     |                                    |                                                              |
+| **1036** **Boys vs Girls**          |                                    | \                                                            |
 |                                     |                                    |                                                              |
 |                                     |                                    |                                                              |
 |                                     |                                    |                                                              |
 |                                     |                                    |                                                              |
-|                                     |                                    |                                                              |
-| **1042** **Shuffling Machine**      |                                    | **将扑克顺序号转为实际牌号的方式**                           |
+| **1042** **Shuffling Machine**      | [C++](/AdvancedLevel/C++/1042.cpp) | **将扑克顺序号转为实际牌号的方式**                           |
 |                                     |                                    |                                                              |
 |                                     |                                    |                                                              |
 |                                     |                                    |                                                              |
