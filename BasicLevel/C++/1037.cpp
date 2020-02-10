@@ -1,4 +1,4 @@
-﻿#include <stdio.h>
+﻿#include <cstdio>
 
 int main() {
 	long long Galleon, Sickle, Knut, P, A, change; //转换过程中可能超过int范围

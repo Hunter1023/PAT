@@ -25,12 +25,12 @@
 | 1019 数字黑洞                 | [C](/BasicLevel/C/1019.c) |                                 |                                    | 若输入数字为6174                                             |
 | 1020 月饼                     | [C](/BasicLevel/C/1020.c) |                                 |                                    | 若全部库存仍无法满足需求                                     |
 | 1021 个位数统计               | [C](/BasicLevel/C/1021.c) |                                 |                                    | \                                                            |
-| 1022 D进制的A+B               | [C](/BasicLevel/C/1022.c) |                                 |                                    | A + B = 0                                                    |
+| 1022 D进制的A+B               | [C](/BasicLevel/C/1022.c) | [C++](/BasicLevel/C++/1022.cpp) |                                    | **除基取余法**                                               |
 | 1023 组个最小数               | [C](/BasicLevel/C/1023.c) |                                 |                                    | \                                                            |
 | 1024 科学计数法               | [C](/BasicLevel/C/1024.c) |                                 |                                    | **小数点的输出**                                             |
 | 1025 反转链表                 | [C](/BasicLevel/C/1025.c) |                                 |                                    | **可能存在无效节点**                                         |
 | 1026 程序运行时间             | [C](/BasicLevel/C/1026.c) | [C++](/BasicLevel/C++/1026.cpp) |                                    | \                                                            |
-| 1027 打印沙漏                 | [C](/BasicLevel/C/1027.c) |                                 |                                    | 沙漏高度和符号数量的关系                                     |
+| 1027 打印沙漏                 | [C](/BasicLevel/C/1027.c) | [C++](/BasicLevel/C++/1027.cpp) |                                    | **沙漏高度和符号数量的关系**                                 |
 | 1028 人口普查                 | [C](/BasicLevel/C/1028.c) | [C++](/BasicLevel/C++/1028.cpp) |                                    | **1. 不合理年龄的判断方式**<br />**2. 需要考虑全不合理的情况** |
 | 1029 旧键盘                   | [C](/BasicLevel/C/1029.c) |                                 |                                    | 坏键的判断方式                                               |
 | 1030 完美数列                 | [C](/BasicLevel/C/1030.c) |                                 |                                    | 高效地判断完美数列                                           |
@@ -40,7 +40,7 @@
 | 1034 有理数四则运算           | [C](/BasicLevel/C/1034.c) |                                 |                                    | **合理解耦**                                                 |
 | 1035 插入与归并               | [C](/BasicLevel/C/1035.c) |                                 |                                    | ![Basic1035](/images/Basic1035.jpg)                          |
 | 1036 跟奥巴马一起编程         | [C](/BasicLevel/C/1036.c) | [C++](/BasicLevel/C++/1036.cpp) |                                    | \                                                            |
-| 1037 在霍格沃茨找零钱         | [C](/BasicLevel/C/1037.c) |                                 |                                    | 进制换算                                                     |
+| 1037 在霍格沃茨找零钱         | [C](/BasicLevel/C/1037.c) | [C++](/BasicLevel/C++/1037.cpp) |                                    | \                                                            |
 | 1038 统计同成绩学生           | [C](/BasicLevel/C/1038.c) | [C++](/BasicLevel/C++/1038.cpp) |                                    | 找准解题角度                                                 |
 | 1039 到底买不买               | [C](/BasicLevel/C/1039.c) |                                 |                                    | **对珠子的判断方式**                                         |
 | 1040 有几个PAT                | [C](/BasicLevel/C/1040.c) |                                 |                                    | **A前有P，后有T才能形成PAT**                                 |

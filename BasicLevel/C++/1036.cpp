@@ -1,15 +1,15 @@
-#include <cstdio>
+ï»¿#include <cstdio>
 #include <cmath>
 
 int main() {
-	int N;//Õý·½ÐÎ±ß³¤
-	char C; //×Ö·û 
+	int N;//æ­£æ–¹å½¢è¾¹é•¿
+	char C; //å­—ç¬¦ 
 	scanf("%d %c", &N, &C);
-	int row = (int)round(N / 2.0); //ÐÐÊý 
-	for (int i = 0; i < row; i++) {
-		for (int j = 0; j < N; j++) {
-			if (i == 0 || i == row - 1 // µÚÒ»ÐÐ£¬×îºóÒ»ÐÐ
-				|| j == 0 || j == N - 1) {//Ã¿ÐÐµÄÍ·Î²
+	int row = round(N / 2.0); //è¡Œæ•° 
+	for(int i = 0; i < row; i++) {
+		for(int j = 0; j < N; j++) {
+			if(i == 0 || i == row - 1 // ç¬¬ä¸€è¡Œï¼Œæœ€åŽä¸€è¡Œ
+				|| j == 0 || j == N - 1) {//æ¯è¡Œçš„å¤´å°¾
 				printf("%c", C); 
 			} else {
 				printf(" ");
