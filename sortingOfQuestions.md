@@ -1,7 +1,5 @@
 <div align = center><font size="6"><b>算法题目分类</b></font></div>
-根据《算法笔记》一书，对PAT甲级、乙级真题和[codeup](http://codeup.cn/contest.php)部分试题进行分类。
-
-
+根据《算法笔记》一书，对PAT甲级、乙级真题和[codeup](codeup.cn/contest.php)部分试题进行分类。
 
 ## 1. C/C++快速入门
 
