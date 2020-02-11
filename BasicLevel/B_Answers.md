@@ -5,11 +5,11 @@
 | 题目                          | 答案                      | 答案                            | 答案                               | 解题关键                                                     |
 | ----------------------------- | :------------------------ | ------------------------------- | ---------------------------------- | ------------------------------------------------------------ |
 | 1001 害死人不偿命的(3n+1)猜想 | [C](/BasicLevel/C/1001.c) | [C++](/BasicLevel/C++/1001.cpp) | [Java](/BasicLevel/Java/1001.java) | \                                                            |
-| 1002 写出这个数               | [C](/BasicLevel/C/1002.c) |                                 | [Java](/BasicLevel/Java/1002.java) | 1. 各位数字之和的范围；<br />2. **正序输出**每一位数字的拼音 |
+| 1002 写出这个数               | [C](/BasicLevel/C/1002.c) | [C++](/BasicLevel/C++/1002.cpp) | [Java](/BasicLevel/Java/1002.java) | **数字转为字符串**：<br />C语言：`sprintf(str, "%d", num)`<br />C++：`to_string(num)` |
 | 1003 我要通过！               | [C](/BasicLevel/C/1003.c) |                                 | [Java](/BasicLevel/Java/1003.java) | 正确归纳答案正确的条件                                       |
 | 1004 成绩排名                 | [C](/BasicLevel/C/1004.c) | [C++](/BasicLevel/C++/1004.cpp) | [Java](/BasicLevel/Java/1004.java) | \                                                            |
 | 1005 继续(3n+1)猜想           | [C](/BasicLevel/C/1005.c) |                                 | [Java](/BasicLevel/Java/1005.java) | 筛选关键数字的方式                                           |
-| 1006 换个格式输出整数         | [C](/BasicLevel/C/1006.c) |                                 | [Java](/BasicLevel/Java/1006.java) | \                                                            |
+| 1006 换个格式输出整数         | [C](/BasicLevel/C/1006.c) | [C++](/BasicLevel/C++/1006.cpp) | [Java](/BasicLevel/Java/1006.java) | \                                                            |
 | 1007 素数对猜想               | [C](/BasicLevel/C/1007.c) |                                 | [Java](/BasicLevel/Java/1007.java) | 1. 素数对的筛选方式；<br />2. 素数的判断方法                 |
 | 1008 数组元素循环右移问题     | [C](/BasicLevel/C/1008.c) |                                 | [Java](/BasicLevel/Java/1008.java) | **元素循环右移的高效移动方式**                               |
 | 1009 说反话                   | [C](/BasicLevel/C/1009.c) |                                 | [Java](/BasicLevel/Java/1009.java) | **句子颠倒，单词本身不颠倒**                                 |
@@ -17,14 +17,14 @@
 | 1011 A+B和C                   | [C](/BasicLevel/C/1011.c) | [C++](/BasicLevel/C++/1011.cpp) | [Java](/BasicLevel/Java/1011.java) | \                                                            |
 | 1012 数字分类                 | [C](/BasicLevel/C/1012.c) | [C++](/BasicLevel/C++/1012.cpp) | [Java](/BasicLevel/Java/1012.java) | 有条不紊地整理                                               |
 | 1013 数素数                   | [C](/BasicLevel/C/1013.c) |                                 | [Java](/BasicLevel/Java/1013.java) | \                                                            |
-| 1014 福尔摩斯的约会           | [C](/BasicLevel/C/1014.c) |                                 | [Java](/BasicLevel/Java/1014.java) | **正确归纳**解码方式                                         |
+| 1014 福尔摩斯的约会           | [C](/BasicLevel/C/1014.c) | [C++](/BasicLevel/C++/1014.cpp) | [Java](/BasicLevel/Java/1014.java) | **正确归纳**解码方式                                         |
 | 1015 德才论                   | [C](/BasicLevel/C/1015.c) |                                 |                                    | 成绩的分类                                                   |
 | 1016 部分A+B                  | [C](/BasicLevel/C/1016.c) | [C++](/BasicLevel/C++/1016.cpp) |                                    | \                                                            |
 | 1017 A除以B                   | [C](/BasicLevel/C/1017.c) |                                 |                                    | 将除法的特点转换为计算机语言                                 |
 | 1018 锤子剪刀布               | [C](/BasicLevel/C/1018.c) | [C++](/BasicLevel/C++/1018.cpp) |                                    | **注意scanf留在缓冲区的换行符`\n`的处理**                    |
 | 1019 数字黑洞                 | [C](/BasicLevel/C/1019.c) |                                 |                                    | 若输入数字为6174                                             |
 | 1020 月饼                     | [C](/BasicLevel/C/1020.c) |                                 |                                    | 若全部库存仍无法满足需求                                     |
-| 1021 个位数统计               | [C](/BasicLevel/C/1021.c) |                                 |                                    | \                                                            |
+| 1021 个位数统计               | [C](/BasicLevel/C/1021.c) | [C++](/BasicLevel/C++/1021.cpp) |                                    | \                                                            |
 | 1022 D进制的A+B               | [C](/BasicLevel/C/1022.c) | [C++](/BasicLevel/C++/1022.cpp) |                                    | **除基取余法**                                               |
 | 1023 组个最小数               | [C](/BasicLevel/C/1023.c) |                                 |                                    | \                                                            |
 | 1024 科学计数法               | [C](/BasicLevel/C/1024.c) |                                 |                                    | **小数点的输出**                                             |

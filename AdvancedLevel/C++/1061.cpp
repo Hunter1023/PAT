@@ -5,9 +5,9 @@
  * 		1.3 分钟：第1对相同的 英文字母（无论大小写）
  * 2. 小时和分钟都显示为两位数
  */
-#include <stdio.h>
-#include <string.h>
-#include <ctype.h>
+#include <cstdio>
+#include <cstring>
+#include <cctype>
 
 int main() {
 	const char day[][4] = {"MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"};
