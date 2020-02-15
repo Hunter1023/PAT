@@ -7,8 +7,8 @@
  *			- 仍有小数点，何时输出小数点（重点）
  *			- 没有小数点，后续输出0
  */
-#include <stdio.h>
-#include <string.h>
+#include <cstdio>
+#include <cstring>
 
 int main() {
 	char A[10000];
