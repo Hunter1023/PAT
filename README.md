@@ -29,9 +29,9 @@ PAT的负责人陈越老师在知乎上有这样一个对PAT考试的回答：
 
 ---
 
-## 3. [C/C++解题干货](https://hunter1023.github.io/2020/02/01/C-C-%E8%A7%A3%E9%A2%98%E5%B9%B2%E8%B4%A7/)
+## 3. [C/C++解题干货](https://hunter1023.github.io/2020/02/01/C_C++%E8%A7%A3%E9%A2%98%E5%B9%B2%E8%B4%A7/)
 
-## 4. [PAT题目分类](/sortingOfQuestions.md)
+## 4. [PAT题目分类](https://hunter1023.github.io/2020/02/16/%E7%AE%97%E6%B3%95%E9%A2%98%E7%9B%AE%E5%88%86%E7%B1%BB/)
 
 ## 5. [乙级答案](/BasicLevel/B_Answers.md)
 
