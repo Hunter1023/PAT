@@ -1,53 +1,49 @@
-﻿/* 
- * 先分类：1.德才全尽；2.德胜才；3.才德兼亡尚有德胜才；4.剩余及格的考生
- * 后排序：总分降序；德分降序；准考证号升序
- */
+﻿/* 排序：按 学生分类升序；总分降序；德分降序；准考证号升序 */
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct{
-	int num; //准考证号
-	int de; //德分
-	int cai; //才分 
-} examinee;
-int cmp(const void *a, const void *b) {
-	examinee e1 = *(examinee *)a;
-	examinee e2 = *(examinee *)b;
-	if ((e1.de + e1.cai) != (e2.de + e2.cai)) {//总分降序 
-		return (e2.de + e2.cai) > (e1.de + e1.cai);  
-	} else if ( e1.de != e2.de) { //德分降序 
-		return e2.de > e1.de;
-	} else {
-		return e1.num > e2.num; //准考证号升序 
+typedef struct {
+	int id, de, cai, flag;
+} man;
+
+int cmp(const void *a, const void *b) { //返回值<0, a被排在b之前；返回值>0，a被排在b之后
+	man m1 = *(man *)a;
+	man m2 = *(man *)b;
+	if(m1.flag != m2.flag) { //类别升序
+		return m1.flag - m2.flag
+	} else if((m1.de + m1.cai) != (m2.de + m2.cai)) {//总分降序 
+		return (m2.de + m2.cai) - (m1.de + m1.cai);  
+	} else if( m1.de != m2.de) { //德分降序 
+		return m2.de - m1.de;
+	} else{ //准考证号升序
+		return m1.id - m2.id; 
 	}
 }
 int main() {
-	int N, L, H; //考生总数、最低和最高分数线
+	int N, L, H; 
 	scanf("%d %d %d", &N, &L, &H);
-	int num, de, cai; //准考证号、德分、才分 
-	int cnt[4] = {0}; //四类考生的数量 
-	examinee order[4][N];
-	while (N-- > 0) { //读入考生信息 
-		scanf("%d %d %d", &num, &de, &cai);
-		if( de >= L && cai >= L) { //如果达到最低分数线 
-			examinee e = {num, de, cai}; //创建考生 
-			if (de >= H && cai >= H) { //德才全尽 
-				order[0][cnt[0]++] = e; 
-			} else if (de >= H && cai < H) { //德胜才 
-				order[1][cnt[1]++] = e; 
-			} else if (de < H && cai < H && de >= cai) {//才德兼亡尚有德胜才 
-				order[2][cnt[2]++] = e;
+	int cnt = 0; //及格人数
+	man m[N];
+	for(int i = 0; i < N; i++) {
+		scanf("%d %d %d", &m[i].id, &m[i].de, &m[i].cai);
+		if(m[i].de >= L && m[i].cai >= L) { //及格
+			cnt++;
+			if(m[i].de >= H && m[i].cai >= H) { //才德全尽 
+				m[i].flag = 1;
+			} else if(m[i].de >= H) { //德胜才 
+				m[i].flag = 2;
+			} else if(m[i].de >= m[i].cai) { //才德兼亡尚有德胜才
+				m[i].flag = 3;
 			} else {
-				order[3][cnt[3]++] = e;
-			} 
+				m[i].flag = 4;
+			}
+		} else { //不及格
+			m[i].flag = 5;
 		}
 	}
-	printf("%d\n", cnt[0] + cnt[1] + cnt[2] + cnt[3]);
-	for (int i = 0; i < 4; i++) { //遍历四个分类，进行排序 
-		qsort(order[i], cnt[i], sizeof(order[i][0]), cmp);
-		for (int j = 0; j < cnt[i]; j ++) {//依次输出
-			printf("%08d %d %d\n", order[i][j].num, order[i][j].de, order[i][j].cai);
-		} 
-	}
+	printf("%d\n", cnt);
+	qsort(m, N, sizeof(man), cmp);
+	for(int i = 0; i < cnt; i++)
+		printf("%08d %d %d\n", m[i].id, m[i].de, m[i].cai);
 	return 0; 
 }

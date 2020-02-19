@@ -18,7 +18,7 @@
 | 1012 数字分类                 | [C](/BasicLevel/C/1012.c) | [C++](/BasicLevel/C++/1012.cpp) | [Java](/BasicLevel/Java/1012.java) | 有条不紊地整理                                               |
 | 1013 数素数                   | [C](/BasicLevel/C/1013.c) |                                 | [Java](/BasicLevel/Java/1013.java) | \                                                            |
 | 1014 福尔摩斯的约会           | [C](/BasicLevel/C/1014.c) | [C++](/BasicLevel/C++/1014.cpp) | [Java](/BasicLevel/Java/1014.java) | **正确归纳**解码方式                                         |
-| 1015 德才论                   | [C](/BasicLevel/C/1015.c) |                                 |                                    | 成绩的分类                                                   |
+| 1015 德才论                   | [C](/BasicLevel/C/1015.c) | [C++](/BasicLevel/C++/1015.cpp) |                                    | 设置flag作为考生的分类，便于所有考生**统一排序**             |
 | 1016 部分A+B                  | [C](/BasicLevel/C/1016.c) | [C++](/BasicLevel/C++/1016.cpp) |                                    | \                                                            |
 | 1017 A除以B                   | [C](/BasicLevel/C/1017.c) |                                 |                                    | 将除法的特点转换为计算机语言                                 |
 | 1018 锤子剪刀布               | [C](/BasicLevel/C/1018.c) | [C++](/BasicLevel/C++/1018.cpp) |                                    | **注意scanf留在缓冲区的换行符`\n`的处理**                    |
