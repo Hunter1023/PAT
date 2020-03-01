@@ -28,15 +28,10 @@
 |                                         |                                    |                                                              |
 |                                         |                                    |                                                              |
 |                                         |                                    |                                                              |
-|                                         |                                    |                                                              |
-|                                         |                                    |                                                              |
-|                                         |                                    |                                                              |
-|                                         |                                    |                                                              |
-|                                         |                                    |                                                              |
-|                                         |                                    |                                                              |
+| **1025** **PAT Ranking**                | [C++](/AdvancedLevel/C++/1025.cpp) | \                                                            |
 |                                         |                                    |                                                              |
 | **1027** **Colors in Mars**             | [C++](/AdvancedLevel/C++/1027.cpp) | \                                                            |
-|                                         |                                    |                                                              |
+| **1028** **List Sorting**               | [C++](/AdvancedLevel/C++/1028.cpp) | \                                                            |
 |                                         |                                    |                                                              |
 |                                         |                                    |                                                              |
 | **1031** **Hello World for U**          | [C++](/AdvancedLevel/C++/1031.cpp) | 根据 n1和n3为  $\leq$ n2，且满足 n1+n2+n3 = N+2 的最大值，求出n1，n2，n3 |
@@ -62,7 +57,7 @@
 |                                         |                                    |                                                              |
 |                                         |                                    |                                                              |
 |                                         |                                    |                                                              |
-|                                         |                                    |                                                              |
+| **1055** **The World's Richest**        | [C++](/AdvancedLevel/C++/1055.cpp) | **超时问题，要求输出的人数$\leq$100，通过筛去每个年龄多余的人解决** |
 |                                         |                                    |                                                              |
 |                                         |                                    |                                                              |
 | **1058** **A+B in Hogwarts**            | [C++](/AdvancedLevel/C++/1058.cpp) | 题型同 乙级1037 在霍格沃茨找零钱<br />单位转换过程可能会超过int范围 |
@@ -82,7 +77,7 @@
 |                                         |                                    |                                                              |
 | **1073** **Scientific Notation**        | [C++](/AdvancedLevel/C++/1073.cpp) | 1. **利用正则表达式，分开读取 数字部分 和 指数部分**<br />2. 指数 < 0：整数部分必然为 0<br />3. 指数 >= 0：<br/>     - **仍有小数点，何时输出小数点**<br/>     - 没有小数点，后续输出0 |
 |                                         |                                    |                                                              |
-|                                         |                                    |                                                              |
+| **1075** **PAT Judge**                  |                                    |                                                              |
 |                                         |                                    |                                                              |
 | **1077** **Kuchiguse**                  | [C++](/AdvancedLevel/C++/1073.cpp) | 1. **通过反转字符串，将后缀转换为前缀，便于比较**<br />2. getline()之前注意**读取换行符**。 |
 |                                         |                                    |                                                              |
