@@ -32,11 +32,11 @@
 | 1026 程序运行时间             | [C](/BasicLevel/C/1026.c) | [C++](/BasicLevel/C++/1026.cpp) |                                    | \                                                            |
 | 1027 打印沙漏                 | [C](/BasicLevel/C/1027.c) | [C++](/BasicLevel/C++/1027.cpp) |                                    | **沙漏高度和符号数量的关系**                                 |
 | 1028 人口普查                 | [C](/BasicLevel/C/1028.c) | [C++](/BasicLevel/C++/1028.cpp) |                                    | **1. 不合理年龄的判断方式**<br />**2. 需要考虑全不合理的情况** |
-| 1029 旧键盘                   | [C](/BasicLevel/C/1029.c) |                                 |                                    | 坏键的判断方式                                               |
+| 1029 旧键盘                   | [C](/BasicLevel/C/1029.c) | [C++](/BasicLevel/C++/1029.cpp) |                                    | (待优化)                                                     |
 | 1030 完美数列                 | [C](/BasicLevel/C/1030.c) |                                 |                                    | 高效地判断完美数列                                           |
 | 1031 查验身份证               | [C](/BasicLevel/C/1031.c) | [C++](/BasicLevel/C++/1031.cpp) |                                    | \                                                            |
 | 1032 挖掘机技术哪家强         | [C](/BasicLevel/C/1032.c) | [C++](/BasicLevel/C++/1032.cpp) |                                    | 统计各学校总分的方式                                         |
-| 1033 旧键盘打字               | [C](/BasicLevel/C/1033.c) |                                 |                                    | 运行超时                                                     |
+| 1033 旧键盘打字               | [C](/BasicLevel/C/1033.c) | [C++](/BasicLevel/C++/1033.cpp) |                                    | **不能用`scanf`或`cin`读取字符串**，应采用`gets(str)`或`getline(cin, str)`，因为题目**只保证第 2 行输入的文字串非空** |
 | 1034 有理数四则运算           | [C](/BasicLevel/C/1034.c) |                                 |                                    | **合理解耦**                                                 |
 | 1035 插入与归并               | [C](/BasicLevel/C/1035.c) |                                 |                                    | ![Basic1035](/images/Basic1035.jpg)                          |
 | 1036 跟奥巴马一起编程         | [C](/BasicLevel/C/1036.c) | [C++](/BasicLevel/C++/1036.cpp) |                                    | \                                                            |

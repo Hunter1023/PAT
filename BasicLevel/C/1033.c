@@ -12,17 +12,16 @@ int main() {
 	char str1[42], str2[100001];//坏掉的键最多41个 
 	gets(str1);//读入输入 
 	gets(str2);
-	int hasShift = 1;//有上档键 
-	if (strchr(str1, '+')) {//如果上档键坏了，标注 
-		hasShift = 0;
-	}
-	int len = strlen(str2);//避免 每次遍历都要计算导致超时 
-	for (int i = 0; i < len; i++) {
-		if (strchr(str1, toupper(str2[i]))) {//如果直接是坏键，肯定不能打印 
+	int key[128] = {0}, len1 = str1.length();
+	for(int i = 0; i < len1; i++) //标记失效键 
+		key[str1[i]] = 1;
+	int len2 = strlen(str2);//避免 每次遍历都要计算导致超时 
+	for(int i = 0; i < len2; i++) {
+		if(key[toupper(str2[i])]) { //坏键 
 			continue;
-		} else if (!hasShift && isupper(str2[i])) {//上档键坏了,是大写字母 
+		} else if(key['+'] && isupper(str2[i])) { //上档键坏 且 为大写字母 
 			continue; 
-		} 
+		}
 		printf("%c", str2[i]);
 	} 
 	printf("\n"); 
