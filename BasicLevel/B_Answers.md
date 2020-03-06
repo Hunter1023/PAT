@@ -8,7 +8,7 @@
 | 1002 写出这个数               | [C](/BasicLevel/C/1002.c) | [C++](/BasicLevel/C++/1002.cpp) | [Java](/BasicLevel/Java/1002.java) | **数字转为字符串**：<br />C语言：`sprintf(str, "%d", num)`<br />C++：`to_string(num)` |
 | 1003 我要通过！               | [C](/BasicLevel/C/1003.c) |                                 | [Java](/BasicLevel/Java/1003.java) | 正确归纳答案正确的条件                                       |
 | 1004 成绩排名                 | [C](/BasicLevel/C/1004.c) | [C++](/BasicLevel/C++/1004.cpp) | [Java](/BasicLevel/Java/1004.java) | \                                                            |
-| 1005 继续(3n+1)猜想           | [C](/BasicLevel/C/1005.c) |                                 | [Java](/BasicLevel/Java/1005.java) | 筛选关键数字的方式                                           |
+| 1005 继续(3n+1)猜想           | [C](/BasicLevel/C/1005.c) | [C++](/BasicLevel/C++/1005.cpp) | [Java](/BasicLevel/Java/1005.java) | 奇数在判断过程中，可能大小会超过100                          |
 | 1006 换个格式输出整数         | [C](/BasicLevel/C/1006.c) | [C++](/BasicLevel/C++/1006.cpp) | [Java](/BasicLevel/Java/1006.java) | \                                                            |
 | 1007 素数对猜想               | [C](/BasicLevel/C/1007.c) |                                 | [Java](/BasicLevel/Java/1007.java) | 1. 素数对的筛选方式；<br />2. 素数的判断方法                 |
 | 1008 数组元素循环右移问题     | [C](/BasicLevel/C/1008.c) |                                 | [Java](/BasicLevel/Java/1008.java) | **元素循环右移的高效移动方式**                               |
@@ -41,11 +41,11 @@
 | 1035 插入与归并               | [C](/BasicLevel/C/1035.c) |                                 |                                    | ![Basic1035](/images/Basic1035.jpg)                          |
 | 1036 跟奥巴马一起编程         | [C](/BasicLevel/C/1036.c) | [C++](/BasicLevel/C++/1036.cpp) |                                    | \                                                            |
 | 1037 在霍格沃茨找零钱         | [C](/BasicLevel/C/1037.c) | [C++](/BasicLevel/C++/1037.cpp) |                                    | \                                                            |
-| 1038 统计同成绩学生           | [C](/BasicLevel/C/1038.c) | [C++](/BasicLevel/C++/1038.cpp) |                                    | 找准解题角度                                                 |
-| 1039 到底买不买               | [C](/BasicLevel/C/1039.c) |                                 |                                    | **对珠子的判断方式**                                         |
+| 1038 统计同成绩学生           | [C](/BasicLevel/C/1038.c) | [C++](/BasicLevel/C++/1038.cpp) |                                    | \                                                            |
+| 1039 到底买不买               | [C](/BasicLevel/C/1039.c) | [C++](/BasicLevel/C++/1039.cpp) |                                    | \                                                            |
 | 1040 有几个PAT                | [C](/BasicLevel/C/1040.c) |                                 |                                    | **A前有P，后有T才能形成PAT**                                 |
-| 1041 考试座位号               | [C](/BasicLevel/C/1041.c) | [C++](/BasicLevel/C++/1038.cpp) |                                    | \                                                            |
-| 1042 字符统计                 | [C](/BasicLevel/C/1042.c) |                                 |                                    | 确认好筛选条件                                               |
+| 1041 考试座位号               | [C](/BasicLevel/C/1041.c) |                                 |                                    | \                                                            |
+| 1042 字符统计                 | [C](/BasicLevel/C/1042.c) | [C++](/BasicLevel/C++/1042.cpp) |                                    | \                                                            |
 | 1043 输出PATest               | [C](/BasicLevel/C/1043.c) |                                 |                                    | \                                                            |
 | 1044 火星数字                 | [C](/BasicLevel/C/1044.c) |                                 |                                    | 火星文表达的特点                                             |
 | 1045 快速排序                 | [C](/BasicLevel/C/1045.c) |                                 |                                    | ![Basic1045](/images/Basic1045.jpg)                          |

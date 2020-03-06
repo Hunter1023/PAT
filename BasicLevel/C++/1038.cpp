@@ -1,19 +1,19 @@
-#include <cstdio>
+﻿#include <iostream>
+using namespace std;
 
 int main() {
-	int N, scores, cnt[101] = {0}, K;
-	scanf("%d", &N);
-	while (N--) {
-		scanf("%d", &scores);
-		cnt[scores]++;
+	int N, K, cnt[101] = {0}, score;
+	cin >> N;
+	while(N--) {
+		cin >> score;
+		cnt[score]++;
 	}
-	scanf("%d", &K);
-	while (K--) {
-		scanf("%d", &scores);
-		printf("%d", cnt[scores]);
-		if (K != 0) {
-			printf(" ");
-		}
+	cin >> K;
+	for(int i = 0; i < K; i++) {
+		if(i != 0)
+			cout << ' ';
+		cin >> score;
+		cout << cnt[score];
 	}
-	return 0; 
-}
+	return 0;
+} 

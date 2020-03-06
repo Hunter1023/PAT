@@ -1,33 +1,23 @@
-﻿/* 也可采用 将字符作为数组下标的方式统计数量 */
-#include <stdio.h>
+﻿#include <stdio.h>
 #include <string.h>
 
 int main() {
-	char line1[1001], line2[1001];
-	scanf("%s\n%s", line1, line2);
-	for (int i = 0; i < strlen(line1); i++) { //遍历两串珠子，符合要求的珠子都标注掉 
-		for (int j = 0; j < strlen(line2); j++) {
-			if (line1[i] == line2[j]) {
-				line1[i] = '*';
-				line2[j] = '*';
-			}
-		}
+	char str1[1001], str2[1001];
+	int cnt[128] = {0};
+	scanf("%s\n%s", str1, str2);
+	int len1 = strlen(str1), len2 = strlen(str2);
+	for(int i = 0; i < len1; i++)
+		cnt[str1[i]]++;
+	int extra = len1 - len2, missing = 0;
+	for(int i = 0; i < len2; i++) {
+		cnt[str2[i]]--;
+		if(cnt[str2[i]] < 0)
+			missing++;
 	}
-	int lack = 0, surplus = 0;
-	for (int i = 0; i < strlen(line2); i++) {//有想要的珠子，统计数量 
-    	if (line2[i] != '*') { 
-    		lack++;
-		}
-	}
-    if (lack > 0) {
-		printf("No %d\n", lack);
+    if(missing != 0) { //不满足需要
+		printf("No %d\n", missing);
 	} else {
-		for (int i = 0; i < strlen(line1); i++) {//有多余的珠子，统计数量 
-    		if (line1[i] != '*') {
-    			surplus++;
-			}
-		}
-		printf("Yes %d\n", surplus);
+		printf("Yes %d\n", extra); 
 	}
 	return 0;
 }

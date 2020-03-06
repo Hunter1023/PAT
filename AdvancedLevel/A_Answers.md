@@ -95,4 +95,4 @@
 |                                         |                                    |                                                              |
 |                                         |                                    |                                                              |
 |                                         |                                    |                                                              |
-|                                         |                                    |                                                              |
+| **1092** **To Buy or Not to Buy**       | [C++](/AdvancedLevel/C++/1092.cpp) | \                                                            |
