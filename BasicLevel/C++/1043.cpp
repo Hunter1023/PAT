@@ -1,9 +1,9 @@
-﻿#include <stdio.h>
+﻿#include <iostream>
+using namespace std; 
 
 int main() {
-    char c;
-	int cnt[128] = {0};
-	while(scanf("%c", &c) != EOF)
+	int cnt[128] = {0}, c;
+	while((c = cin.get()) != EOF)
 		cnt[c]++;
 	while(cnt['P'] > 0 || cnt['A'] > 0 || cnt['T'] > 0
 			|| cnt['e'] > 0 || cnt['s'] > 0 || cnt['t'] > 0) {

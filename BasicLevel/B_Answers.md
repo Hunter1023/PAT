@@ -23,10 +23,10 @@
 | 1017 A除以B                   | [C](/BasicLevel/C/1017.c) |                                 |                                    | 将除法的特点转换为计算机语言                                 |
 | 1018 锤子剪刀布               | [C](/BasicLevel/C/1018.c) | [C++](/BasicLevel/C++/1018.cpp) |                                    | **注意scanf留在缓冲区的换行符`\n`的处理**                    |
 | 1019 数字黑洞                 | [C](/BasicLevel/C/1019.c) |                                 |                                    | 若输入数字为6174                                             |
-| 1020 月饼                     | [C](/BasicLevel/C/1020.c) |                                 |                                    | 若全部库存仍无法满足需求                                     |
+| 1020 月饼                     | [C](/BasicLevel/C/1020.c) | [C++](/BasicLevel/C++/1020.cpp) |                                    | 库存量和售价都应该定义为double类型                           |
 | 1021 个位数统计               | [C](/BasicLevel/C/1021.c) | [C++](/BasicLevel/C++/1021.cpp) |                                    | \                                                            |
 | 1022 D进制的A+B               | [C](/BasicLevel/C/1022.c) | [C++](/BasicLevel/C++/1022.cpp) |                                    | **除基取余法**                                               |
-| 1023 组个最小数               | [C](/BasicLevel/C/1023.c) |                                 |                                    | \                                                            |
+| 1023 组个最小数               | [C](/BasicLevel/C/1023.c) | [C++](/BasicLevel/C++/1023.cpp) |                                    | \                                                            |
 | 1024 科学计数法               | [C](/BasicLevel/C/1024.c) | [C++](/BasicLevel/C++/1024.cpp) |                                    | **1. 利用正则表达式，分开读取 数字部分 和 指数部分**<br />2. 指数 < 0：整数部分必然为 0<br />3. 指数 >= 0：<br/>     - **仍有小数点，何时输出小数点**<br/>     - 没有小数点，后续输出0 |
 | 1025 反转链表                 | [C](/BasicLevel/C/1025.c) |                                 |                                    | **可能存在无效节点**                                         |
 | 1026 程序运行时间             | [C](/BasicLevel/C/1026.c) | [C++](/BasicLevel/C++/1026.cpp) |                                    | \                                                            |
@@ -46,11 +46,11 @@
 | 1040 有几个PAT                | [C](/BasicLevel/C/1040.c) |                                 |                                    | **A前有P，后有T才能形成PAT**                                 |
 | 1041 考试座位号               | [C](/BasicLevel/C/1041.c) |                                 |                                    | \                                                            |
 | 1042 字符统计                 | [C](/BasicLevel/C/1042.c) | [C++](/BasicLevel/C++/1042.cpp) |                                    | \                                                            |
-| 1043 输出PATest               | [C](/BasicLevel/C/1043.c) |                                 |                                    | \                                                            |
+| 1043 输出PATest               | [C](/BasicLevel/C/1043.c) | [C++](/BasicLevel/C++/1043.cpp) |                                    | \                                                            |
 | 1044 火星数字                 | [C](/BasicLevel/C/1044.c) |                                 |                                    | 火星文表达的特点                                             |
 | 1045 快速排序                 | [C](/BasicLevel/C/1045.c) |                                 |                                    | ![Basic1045](/images/Basic1045.jpg)                          |
 | 1046 划拳                     | [C](/BasicLevel/C/1046.c) |                                 |                                    | \                                                            |
-| 1047 编程团体赛               | [C](/BasicLevel/C/1047.c) |                                 |                                    | \                                                            |
+| 1047 编程团体赛               | [C](/BasicLevel/C/1047.c) | [C++](/BasicLevel/C++/1047.cpp) |                                    | \                                                            |
 | 1048 数字加密                 | [C](/BasicLevel/C/1048.c) | [C++](/BasicLevel/C++/1048.cpp) |                                    | **1. 对齐两个整数** <br/>     - 若加密正整数A 比 B 长，B**高位补0**后进行加密 <br/>     - 若加密正整数A 比 B 短，B**多余的部分正常输出，等同于A高位补0**后进行加密 <br/> 2. 结果从数字高位(**字符串低位**)**开始输出** |
 | 1049 数列的片段和             | [C](/BasicLevel/C/1049.c) |                                 |                                    | **整型大小溢出**                                             |
 | 1050 螺旋矩阵                 | [C](/BasicLevel/C/1050.c) |                                 |                                    | ![Basic1050](/images/Basic1050.jpg)                          |

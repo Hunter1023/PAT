@@ -36,7 +36,7 @@
 |                                         |                                    |                                                              |
 | **1031** **Hello World for U**          | [C++](/AdvancedLevel/C++/1031.cpp) | 根据 n1和n3为  $\leq$ n2，且满足 n1+n2+n3 = N+2 的最大值，求出n1，n2，n3 |
 |                                         |                                    |                                                              |
-|                                         |                                    |                                                              |
+| **1033** **To Fill or Not to Fill**     |                                    |                                                              |
 |                                         |                                    |                                                              |
 | **1035** **Password**                   | [C++](/AdvancedLevel/C++/1035.cpp) | (待优化)                                                     |
 | **1036** **Boys vs Girls**              | [C++](/AdvancedLevel/C++/1036.cpp) | \                                                            |
@@ -73,7 +73,7 @@
 |                                         |                                    |                                                              |
 |                                         |                                    |                                                              |
 |                                         |                                    |                                                              |
-|                                         |                                    |                                                              |
+| **1070** **Mooncake**                   | [C++](/AdvancedLevel/C++/1070.cpp) | 库存量和售价都应该定义为double类型                           |
 |                                         |                                    |                                                              |
 |                                         |                                    |                                                              |
 | **1073** **Scientific Notation**        | [C++](/AdvancedLevel/C++/1073.cpp) | 1. **利用正则表达式，分开读取 数字部分 和 指数部分**<br />2. 指数 < 0：整数部分必然为 0<br />3. 指数 >= 0：<br/>     - **仍有小数点，何时输出小数点**<br/>     - 没有小数点，后续输出0 |
