@@ -1,10 +1,10 @@
-﻿#include <stdio.h>
-#include <string.h>
+﻿#include <iostream>
+using namespace std;
 
 int main() {
-	char str[100001];
-	scanf("%s", str);
-	int cntP = 0, cntPAT = 0, cntT = 0, len = strlen(str);
+	string str;
+	cin >> str;
+	int cntP = 0, cntPAT = 0, cntT = 0, len = str.size();
 	for(int i = 0; i < len; i++) { //获取T的数量 
 		if(str[i] == 'T')
 			cntT++; 
@@ -20,6 +20,6 @@ int main() {
 				break;
 		}
 	}
-	printf("%d\n", cntPAT);	
+	cout << cntPAT << endl;	
 	return 0;
 }
